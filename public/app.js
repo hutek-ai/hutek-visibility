@@ -1,7 +1,30 @@
 "use strict";
-const S = { audits: [], current: null, detail: null };
+const S = { audits: [], current: null, detail: null, blobUrls: [] };
 const $ = (s) => document.querySelector(s);
-async function j(u, o) { const r = await fetch(u, o); const t = await r.json().catch(() => ({})); if (!r.ok) throw new Error(t.error || ("HTTP " + r.status)); return t; }
+function authHeader() {
+  const b = sessionStorage.getItem("hutek-vis-auth");
+  return b ? { Authorization: "Basic " + b } : {};
+}
+async function j(u, o) {
+  const r = await fetch(u, { ...(o || {}), headers: { ...authHeader(), ...((o && o.headers) || {}) } });
+  if (r.status === 401) { showLogin("Identifiants requis ou invalides."); throw new Error("HTTP 401"); }
+  const t = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(t.error || ("HTTP " + r.status));
+  return t;
+}
+async function blobUrl(u) {
+  const r = await fetch(u, { headers: authHeader() });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  const b = await r.blob();
+  const url = URL.createObjectURL(b);
+  S.blobUrls.push(url);
+  return url;
+}
+function showLogin(msg) {
+  $("#login").hidden = false; $("#app").hidden = true;
+  if (msg) $("#liErr").textContent = msg;
+}
+function showApp() { $("#login").hidden = true; $("#app").hidden = false; }
 function shot(auditId, f) { return "/screenshots/" + encodeURIComponent(auditId) + "/" + encodeURIComponent(f); }
 function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
 async function boot() {
@@ -11,16 +34,34 @@ async function boot() {
     document.querySelectorAll(".view").forEach((v) => v.classList.remove("on"));
     $("#v-" + b.dataset.t).classList.add("on");
   });
-  try {
-    const h = await j("/api/health");
-    $("#health").textContent = "API " + h.status + " · v" + h.version + (h.running.length ? " · audit en cours" : " · inactif");
-  } catch (e) { $("#health").textContent = "API injoignable"; }
-  try { S.audits = await j("/api/audits"); } catch { S.audits = []; }
+  $("#liGo").onclick = async () => {
+    const u = $("#liUser").value.trim(), p = $("#liPass").value;
+    if (!u || !p) { $("#liErr").textContent = "Saisissez utilisateur et mot de passe."; return; }
+    sessionStorage.setItem("hutek-vis-auth", btoa(unescape(encodeURIComponent(u + ":" + p))));
+    $("#liErr").textContent = "";
+    await loadAll().catch((e) => showLogin(e.message));
+  };
+  $("#btnRun").onclick = runManual;
+  $("#lnkReport").onclick = (e) => { e.preventDefault(); dl($("#lnkReport").href, (S.current || "rapport") + ".html", "text/html"); };
+  $("#lnkJson").onclick = (e) => { e.preventDefault(); dl($("#lnkJson").href, (S.current || "export") + ".json", "application/json"); };
+  await loadAll().catch(() => showLogin(""));
+}
+async function dl(url, filename) {
+  const b = await (await fetch(url, { headers: authHeader() })).blob();
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(b); a.download = filename; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+}
+async function loadAll() {
+  let h;
+  try { h = await j("/api/health"); } catch (e) { $("#health").textContent = "API injoignable"; throw e; }
+  $("#health").textContent = "API " + h.status + " · v" + h.version + (h.running.length ? " · audit en cours" : " · inactif");
+  try { S.audits = await j("/api/audits"); } catch (e) { showLogin(""); throw e; }
+  showApp();
   const last = S.audits.filter((a) => a.status === "done").slice(-1)[0] || S.audits.slice(-1)[0];
   if (last) await loadAudit(last.id);
   else $("#v-synthese").innerHTML = "<p>Aucun audit pour le moment. Lancez un audit manuel.</p>";
   renderHist();
-  $("#btnRun").onclick = runManual;
   try { const hh = await j("/api/heritage"); $("#heritage").textContent = "héritage hutek-lab : " + hh.note + "."; } catch {}
   const dlg = $("#dlg");
   dlg.onclick = () => dlg.close();
@@ -53,7 +94,7 @@ function renderGroup(g) {
   el.innerHTML = "<h2>" + (g === "B" ? "Recherches sans mention de Hutek" : "Recherches avec Hutek mentionnée") + "</h2>" + obs.map((o) => {
     const r = res[o.question_id] || {};
     const srcs = (r.sources || []).map((s) => "<li><a href=\"" + esc(s.url_finale || s.lien_original) + "\" target=_blank rel=noopener>" + esc(s.titre || s.url_finale || s.lien_original) + "</a><br><span class=mut>" + esc(s.url_finale || s.lien_original) + (s.finale_obtenue ? "" : " (finale non obtenue)") + "</span></li>").join("");
-    const img = r.capture ? "<a href=\"" + shot(d.meta.id, r.capture) + "\" download><img class=shot data-full=\"" + shot(d.meta.id, r.capture) + "\" src=\"" + shot(d.meta.id, r.capture) + "\" alt=\"capture " + esc(o.question_id) + "\" loading=lazy></a><br><a href=\"" + shot(d.meta.id, r.capture) + "\" download>Télécharger la capture</a>" : "<p class=mut>Capture indisponible (" + esc(r.status || "?") + ").</p>";
+    const img = r.capture ? "<img class=shot data-src=\"" + shot(d.meta.id, r.capture) + "\" alt=\"capture " + esc(o.question_id) + " (chargement…)\" loading=lazy><br><button class=\"btn ghost\" data-dl=\"" + shot(d.meta.id, r.capture) + "\" data-fn=\"" + esc(d.meta.id + "-" + o.question_id + ".png") + "\">Télécharger la capture</button>" : "<p class=mut>Capture indisponible (" + esc(r.status || "?") + ").</p>";
     const spec = g === "B"
       ? "<p>Mention : <b>" + (o.hutek_mention_texte ? "oui" : "non") + "</b> · Recommandée : <b>" + (o.hutek_recommandee ? "oui" : "non") + "</b> · Position : <b>" + esc(String(o.position_liste)) + "</b> · hutek.fr en sources : <b>" + (o.hutek_fr_en_sources ? "oui" : "non") + "</b><br><span class=mut>" + esc(o.recommandation_raison || "") + "</span>" + (o.extraits.mention_hutek ? "<br>Extrait : « " + esc(o.extraits.mention_hutek.slice(0, 280)) + " »" : "") + "</p>"
       : "<p>Ton : <b>" + esc(o.ton || "?") + "</b> · Avis : " + esc(o.avis || o.avis_statut || "") + (o.confusion ? "<br>⚠ " + esc(o.confusion) : "") + "</p>";
@@ -61,15 +102,21 @@ function renderGroup(g) {
       + "<p><button class=\"btn ghost\" data-rep=\"" + esc(o.question_id) + "\">Voir la réponse complète</button></p>"
       + "<div class=src><b>Sources (" + (r.sources || []).length + ")</b><ul>" + (srcs || "<li class=mut>Aucune</li>") + "</ul></div>" + img + "</div>";
   }).join("") || "<p class=mut>Rapport en cours de génération.</p>";
-  el.querySelectorAll("img.shot").forEach((im) => im.onclick = (e) => { e.preventDefault(); $("#dlgImg").src = im.dataset.full; $("#dlg").showModal(); });
+  el.querySelectorAll("img.shot").forEach((im) => {
+    blobUrl(im.dataset.src).then((u) => { im.src = u; im.dataset.full = u; }).catch(() => { im.alt = "capture inaccessible"; });
+    im.onclick = () => { if (im.dataset.full) { $("#dlgImg").src = im.dataset.full; $("#dlg").showModal(); } };
+  });
+  el.querySelectorAll("[data-dl]").forEach((b) => b.onclick = () => dl(b.dataset.dl, b.dataset.fn));
   el.querySelectorAll("[data-rep]").forEach((b) => b.onclick = () => { renderRep(b.dataset.rep); document.querySelector('[data-t="rep"]').click(); });
 }
 function renderRep(qid) {
   const d = S.detail; if (!d) return;
   const r = d.results.find((x) => x.question_id === qid) || d.results[0]; if (!r) { $("#v-rep").innerHTML = "<p>Aucune réponse.</p>"; return; }
   const others = d.results.map((x) => "<option " + (x.question_id === r.question_id ? "selected" : "") + " value=\"" + x.question_id + "\">" + x.question_id + "</option>").join("");
-  $("#v-rep").innerHTML = "<h2>Réponse complète — " + esc(r.question_id) + "</h2><p><select id=selRep>" + others + "</select> <span class=mut>" + esc(r.status || "") + " · " + esc(r.horodatage_utc || "") + " · " + esc(String(r.duree_ms || "")) + " ms</span></p><p class=mut><a href=\"" + esc(r.page_url || "#") + "\" target=_blank rel=noopener>URL de la conversation Mode IA</a></p><pre>" + esc(r.reponse_texte || r.erreur || "(vide)") + "</pre>" + (r.capture ? "<img class=shot src=\"" + shot(d.meta.id, r.capture) + "\"> " : "");
+  $("#v-rep").innerHTML = "<h2>Réponse complète — " + esc(r.question_id) + "</h2><p><select id=selRep>" + others + "</select> <span class=mut>" + esc(r.status || "") + " · " + esc(r.horodatage_utc || "") + " · " + esc(String(r.duree_ms || "")) + " ms</span></p><p class=mut><a href=\"" + esc(r.page_url || "#") + "\" target=_blank rel=noopener>URL de la conversation Mode IA</a></p><pre>" + esc(r.reponse_texte || r.erreur || "(vide)") + "</pre>" + (r.capture ? "<img class=shot id=repShot data-src=\"" + shot(d.meta.id, r.capture) + "\">" : "");
   $("#selRep").onchange = (e) => renderRep(e.target.value);
+  const im = $("#repShot");
+  if (im) blobUrl(im.dataset.src).then((u) => { im.src = u; }).catch(() => {});
 }
 function renderHist() {
   $("#v-hist").innerHTML = "<h2>Historique des audits</h2><table><tr><th>Audit</th><th>Date</th><th>Statut</th><th>Complétude</th><th></th></tr>" + S.audits.map((a) => "<tr><td>" + esc(a.id) + "</td><td>" + esc(a.started_utc || "") + "</td><td>" + esc(a.status) + "</td><td>" + (a.complete != null ? a.complete + "/" + a.total : "?") + "</td><td><button class=\"btn ghost\" data-a=\"" + esc(a.id) + "\">Ouvrir</button></td></tr>").join("") + "</table>";
@@ -81,7 +128,7 @@ async function runManual() {
   b.disabled = true; b.textContent = "Lancement…";
   try {
     const r = await j("/api/audits/start", { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
-    alert("Audit " + (r.reused ? "réutilisé (même date) : " : "lancé : ") + r.auditId + "\nSuivi via l'historique. Durée indicative 15-20 min.");
+    alert("Audit " + (r.reused ? "réutilisé (même date) : " : "lancé : ") + r.auditId + "\nSuivi via l'historique. Durée indicative 10-20 min.");
     S.audits = await j("/api/audits"); renderHist();
   } catch (e) { alert("Lancement impossible : " + e.message); }
   finally { b.disabled = false; b.textContent = "Lancer un audit manuel"; }

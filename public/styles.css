@@ -21,3 +21,4 @@ img.shot{max-width:100%;border:1px solid var(--line);border-radius:8px;cursor:zo
 .src{font-size:13px}.src li{margin:3px 0}
 table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left}
 dialog{max-width:95vw}dialog img{max-width:90vw}
+input{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px}

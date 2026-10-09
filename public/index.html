@@ -16,6 +16,11 @@
 <a id="lnkJson" class="btn ghost" href="#">Export JSON</a></div>
 </div></header>
 <main class="wrap">
+<div id="login" class="card" hidden><h2>Connexion</h2>
+<p class="mut">Interface protégée. Saisissez les identifiants fournis par l'administrateur.</p>
+<p><input id="liUser" autocomplete="username" placeholder="Utilisateur"> <input id="liPass" type="password" autocomplete="current-password" placeholder="Mot de passe"> <button id="liGo" class="btn">Se connecter</button></p>
+<p id="liErr" class="mut"></p></div>
+<div id="app" hidden>
 <nav class="tabs" id="tabs">
 <button data-t="synthese" class="on">Synthèse</button>
 <button data-t="sans">Sans Hutek</button>
@@ -36,6 +41,7 @@
 <p>La vitrine de démonstration existante est préservée. <span id="heritage">…</span></p>
 <p><a href="https://www.hutek.fr" target="_blank" rel="noopener">hutek.fr — site officiel</a></p>
 </section>
+</div>
 </main>
 <dialog id="dlg"><img id="dlgImg" alt="capture agrandie"></dialog>
 <script src="/app.js"></script>

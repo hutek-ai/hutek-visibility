@@ -28,6 +28,13 @@ function needToken(req, res, next) {
   const t = process.env.ADMIN_TOKEN;
   if (!t) return next();
   if (req.headers["x-admin-token"] === t) return next();
+  // Un utilisateur connecte a l'interface (Basic valide) peut aussi lancer : meme niveau de confiance.
+  const u = process.env.UI_USER, p = process.env.UI_PASS;
+  if (u && p) {
+    const h = req.headers.authorization || "";
+    const [scheme, b64] = h.split(" ");
+    if (scheme === "Basic" && Buffer.from(b64 || "", "base64").toString() === u + ":" + p) return next();
+  }
   return res.status(403).json({ error: "jeton admin invalide" });
 }
 function auditMetaList() {
