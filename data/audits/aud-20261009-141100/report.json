@@ -28,7 +28,48 @@
       "val": 0
     }
   },
-  "top_concurrents": [],
+  "top_concurrents": [
+    {
+      "nom": "Devoteam",
+      "audits": 2
+    },
+    {
+      "nom": "Wavestone",
+      "audits": 2
+    },
+    {
+      "nom": "Masteria",
+      "audits": 2
+    },
+    {
+      "nom": "Sopra Steria",
+      "audits": 2
+    },
+    {
+      "nom": "AI Partners",
+      "audits": 1
+    },
+    {
+      "nom": "JAIKIN",
+      "audits": 1
+    },
+    {
+      "nom": "Deloitte France AI Advisory",
+      "audits": 1
+    },
+    {
+      "nom": "socIAty",
+      "audits": 1
+    },
+    {
+      "nom": "Solanys",
+      "audits": 1
+    },
+    {
+      "nom": "UpToNum",
+      "audits": 1
+    }
+  ],
   "sections": {
     "synthese": [
       "Audit de visibilite Hutek dans le Mode IA de Google — aud-20261009-141100 (2026-10-09T14:11:00.112Z).",
@@ -43,7 +84,13 @@
         "recommandee": false,
         "position": "non applicable",
         "hutek_fr_source": false,
-        "concurrents": [],
+        "concurrents": [
+          "AI Partners",
+          "JAIKIN",
+          "Deloitte France AI Advisory",
+          "Devoteam",
+          "Wavestone"
+        ],
         "justification": "aucune mention de Hutek dans le texte",
         "extrait": ""
       },
@@ -53,7 +100,13 @@
         "recommandee": false,
         "position": "non applicable",
         "hutek_fr_source": false,
-        "concurrents": [],
+        "concurrents": [
+          "socIAty",
+          "Masteria",
+          "Solanys",
+          "UpToNum",
+          "APE Conseil"
+        ],
         "justification": "aucune mention de Hutek dans le texte",
         "extrait": ""
       },
@@ -63,7 +116,13 @@
         "recommandee": false,
         "position": "non applicable",
         "hutek_fr_source": false,
-        "concurrents": [],
+        "concurrents": [
+          "Stema Partners",
+          "Avisia",
+          "Quantmetry",
+          "Devoteam",
+          "Sopra Steria"
+        ],
         "justification": "aucune mention de Hutek dans le texte",
         "extrait": ""
       },
@@ -73,7 +132,12 @@
         "recommandee": false,
         "position": "non applicable",
         "hutek_fr_source": false,
-        "concurrents": [],
+        "concurrents": [
+          "Minalogic",
+          "Digital League",
+          "Coboteam",
+          "Bpifrance"
+        ],
         "justification": "aucune mention de Hutek dans le texte",
         "extrait": ""
       },
@@ -83,7 +147,12 @@
         "recommandee": false,
         "position": "non applicable",
         "hutek_fr_source": false,
-        "concurrents": [],
+        "concurrents": [
+          "LightOn",
+          "Dust",
+          "Mistral AI",
+          "Craft AI"
+        ],
         "justification": "aucune mention de Hutek dans le texte",
         "extrait": ""
       },
@@ -93,7 +162,12 @@
         "recommandee": false,
         "position": "non applicable",
         "hutek_fr_source": false,
-        "concurrents": [],
+        "concurrents": [
+          "Wavestone",
+          "Boston Consulting Group BCG",
+          "Masteria",
+          "Sopra Steria"
+        ],
         "justification": "aucune mention de Hutek dans le texte",
         "extrait": ""
       }
@@ -419,7 +493,13 @@
       "position_liste": "non applicable",
       "liste_ordonnee_detectee": false,
       "hutek_fr_en_sources": false,
-      "concurrents": [],
+      "concurrents": [
+        "AI Partners",
+        "JAIKIN",
+        "Deloitte France AI Advisory",
+        "Devoteam",
+        "Wavestone"
+      ],
       "extraits": {}
     },
     {
@@ -432,7 +512,13 @@
       "position_liste": "non applicable",
       "liste_ordonnee_detectee": false,
       "hutek_fr_en_sources": false,
-      "concurrents": [],
+      "concurrents": [
+        "socIAty",
+        "Masteria",
+        "Solanys",
+        "UpToNum",
+        "APE Conseil"
+      ],
       "extraits": {}
     },
     {
@@ -445,7 +531,13 @@
       "position_liste": "non applicable",
       "liste_ordonnee_detectee": false,
       "hutek_fr_en_sources": false,
-      "concurrents": [],
+      "concurrents": [
+        "Stema Partners",
+        "Avisia",
+        "Quantmetry",
+        "Devoteam",
+        "Sopra Steria"
+      ],
       "extraits": {}
     },
     {
@@ -458,7 +550,12 @@
       "position_liste": "non applicable",
       "liste_ordonnee_detectee": false,
       "hutek_fr_en_sources": false,
-      "concurrents": [],
+      "concurrents": [
+        "Minalogic",
+        "Digital League",
+        "Coboteam",
+        "Bpifrance"
+      ],
       "extraits": {}
     },
     {
@@ -471,7 +568,12 @@
       "position_liste": "non applicable",
       "liste_ordonnee_detectee": false,
       "hutek_fr_en_sources": false,
-      "concurrents": [],
+      "concurrents": [
+        "LightOn",
+        "Dust",
+        "Mistral AI",
+        "Craft AI"
+      ],
       "extraits": {}
     },
     {
@@ -484,7 +586,12 @@
       "position_liste": "non applicable",
       "liste_ordonnee_detectee": false,
       "hutek_fr_en_sources": false,
-      "concurrents": [],
+      "concurrents": [
+        "Wavestone",
+        "Boston Consulting Group BCG",
+        "Masteria",
+        "Sopra Steria"
+      ],
       "extraits": {}
     }
   ]

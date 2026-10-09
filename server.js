@@ -190,4 +190,4 @@ if (require.main === module) {
   if (!fs.existsSync(store.auditsIndexPath())) store.writeIndex([]);
   app.listen(PORT, "0.0.0.0", () => console.log(APP_NAME + " v" + APP_VERSION + " on :" + PORT));
 }
-module.exports = { app, runAudit, APP_VERSION, APP_NAME };
+module.exports = { app, runAudit, reportHtml, APP_VERSION, APP_NAME };
