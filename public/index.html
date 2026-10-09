@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suivi visibilité Hutek — Mode IA Google</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<div class="brand">Hutek <span>visibilité</span></div>
+<div class="sub">Suivi quotidien · Mode IA de Google · 8 h Europe/Paris</div>
+<div class="row"><span id="health" class="pill">…</span>
+<button id="btnRun" class="btn">Lancer un audit manuel</button>
+<a id="lnkReport" class="btn ghost" href="#" target="_blank">Rapport HTML</a>
+<a id="lnkJson" class="btn ghost" href="#">Export JSON</a></div>
+</div></header>
+<main class="wrap">
+<nav class="tabs" id="tabs">
+<button data-t="synthese" class="on">Synthèse</button>
+<button data-t="sans">Sans Hutek</button>
+<button data-t="avec">Avec Hutek</button>
+<button data-t="hist">Historique</button>
+<button data-t="rep">Réponse complète</button>
+<button data-t="methode">Méthode & hutek-lab</button>
+</nav>
+<section id="v-synthese" class="view on"></section>
+<section id="v-sans" class="view"></section>
+<section id="v-avec" class="view"></section>
+<section id="v-hist" class="view"></section>
+<section id="v-rep" class="view"></section>
+<section id="v-methode" class="view">
+<h2>Méthode</h2>
+<p>13 questions versionnées (A1–A7 avec Hutek, B1–B6 sans Hutek), formulations exactes conservées pour comparer les journées. Chaque question ouvre une <b>nouvelle conversation Google indépendante</b> en Mode IA (nouveau paramètre de recherche), sans instruction cachée. Réponse complète, sources associées (panneaux de citations inclus), capture lisible. Observations du Mode IA <b>dans les conditions testées</b>, pas un classement universel de Google. Échecs techniques exclus des taux, affichés séparément.</p>
+<h2>Documentation hutek-lab conservée</h2>
+<p>La vitrine de démonstration existante est préservée. <span id="heritage">…</span></p>
+<p><a href="https://www.hutek.fr" target="_blank" rel="noopener">hutek.fr — site officiel</a></p>
+</section>
+</main>
+<dialog id="dlg"><img id="dlgImg" alt="capture agrandie"></dialog>
+<script src="/app.js"></script>
+</body>
+</html>

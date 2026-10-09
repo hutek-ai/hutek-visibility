@@ -1,0 +1,1 @@
+{"name":"hutek-visibility","version":"1.0.0","description":"Suivi de la visibilite et de l'image de Hutek dans le Mode IA de Google","main":"server.js","scripts":{"start":"node server.js","test":"node tests/run.js"},"dependencies":{"express":"^4.19.2"},"engines":{"node":">=20"}}

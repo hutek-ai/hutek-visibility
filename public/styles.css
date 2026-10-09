@@ -1,0 +1,23 @@
+:root{--fg:#1a1a1a;--mut:#666;--line:#ddd;--acc:#0a6b3a;--bg:#fafafa}
+*{box-sizing:border-box}body{margin:0;color:var(--fg);font:15px/1.5 system-ui,sans-serif;background:var(--bg)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.top{background:#fff;border-bottom:1px solid var(--line);padding:14px 0;position:sticky;top:0;z-index:5}
+.brand{font-weight:800;font-size:22px}.brand span{color:var(--acc)}.sub{color:var(--mut);margin:2px 0 10px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pill{border:1px solid var(--line);border-radius:20px;padding:4px 12px;font-size:13px;background:#fff}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer;font-size:14px}
+.btn[disabled]{opacity:.5;cursor:wait}.btn.ghost{background:#fff;color:var(--acc);border:1px solid var(--acc);text-decoration:none;display:inline-block}
+.tabs{display:flex;gap:6px;margin:16px 0;flex-wrap:wrap}
+.tabs button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;cursor:pointer}
+.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.view{display:none;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:20px}
+.view.on{display:block}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 0}
+.kpi div{border:1px solid var(--line);border-radius:10px;padding:10px}.kpi b{font-size:20px}
+.mut{color:var(--mut)}.card{border:1px solid var(--line);border-radius:10px;padding:12px;margin:10px 0}
+.card h3{margin:0 0 6px;font-size:16px}
+pre{white-space:pre-wrap;background:#f4f4f4;padding:10px;border-radius:8px;max-height:420px;overflow:auto;font-size:13px}
+img.shot{max-width:100%;border:1px solid var(--line);border-radius:8px;cursor:zoom-in}
+.src{font-size:13px}.src li{margin:3px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left}
+dialog{max-width:95vw}dialog img{max-width:90vw}
