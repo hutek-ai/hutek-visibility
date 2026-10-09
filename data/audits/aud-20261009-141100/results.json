@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "question_id": "A1",
+    "group": "A",
+    "question_exacte": "Que peux-tu me dire sur l'entreprise Hutek ?",
+    "horodatage_utc": "2026-10-09T14:11:00.133Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Que+peux-tu+me+dire+sur+l%27entreprise+Hutek+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfB-jiGQI5BxXmPG3v1uBpZdCRZ8Mw1-gwVKFxdMRFSgAfK_s3HHf2KBnd7RE2rYt4N7oaD2b9KRjACniyoOVMHMID-4Ood52efxRyhM2Qa2YmbgnGeYtaVzRbfjo3nF6HaS8Mb_q5CrUn8N0S4pUo_Wtc6hWtQl-m4",
+    "duree_ms": 16324,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Que peux-tu me dire sur l'entreprise Hutek ?\nQue peux-tu me dire sur l'entreprise Hutek ?\nL'entreprise Hutek (officiellement enregistrée sous le nom de Hutek Humain et Technologies) est une société par actions simplifiée unipersonnelle (SASU) spécialisée dans le conseil en gestion et en technologies. \nPappers\n +2\nInformations générales\nDate de création : 7 mars 2020\nSiège social : Cailloux-sur-Fontaines (près de Lyon), dans le Rhône\nForme juridique : SASU\nSecteur d'activité : Conseil pour les affaires et autres conseils de gestion, technologies et services de l'information (Code NAF 70.22Z)\nSite web officiel : Hutek \nActivité\nL'entreprise axe son activité sur le conseil aux entreprises et sociétés commerciales. Elle propose des prestations de service, de l'accompagnement dans l'administration, ainsi que la réalisation d'études liées aux interactions entre l'humain et les technologies. \nPappers\n +1\n(Note : Il existe également une autre entité homonyme, une Société Civile Immobilière (SCI) nommée Hutek et domiciliée à Paris, qui se consacre quant à elle à la location et à l'administration de biens immobiliers). \ndata.gouv.fr\n +1\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nPappers\nSociété HUTEK HUMAIN ET TECHNOLOGIES - Pappers\n11 juin 2026 — Le conseil aux entreprises et aux sociétés commerciales, la fourniture de prestations de service et la réalisation d'études se rap...\nLinkedIn\n·\nhutek\nhutek - LinkedIn\nSite web: https://www.hutek.fr. Secteur: Technologies et services de l'information. Type: Société indépendante.\ndata.gouv.fr\nSociété HUTEK à 75017 PARIS - SIREN 919 325 332\n8 oct. 2026 — La société HUTEK a été créée le 1 septembre 2022, il y a 4 ans. Sa forme juridique est Société civile immobilière. terrains et d'a...\nTout afficher\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "société par actions simplifiée unipersonnelle (SASU)",
+        "lien_original": "https://www.google.com/goto?url=CAESjwEB6zswFYggI7T45d7wJpH_QzJlQQoFayc0ltrrFrp6BopKovtpTL_Ho9juhQ7jE5KfV2ZOF2pInVS1qu60wYws0vus9_Duo2wvMxXj1TydeGyfnDsVbKkQtDsZyLTf-09tSE-0-b9Sqnwbdy7MPE0gIrSYLBvT1vMj90JVTp7nxO6iarjVo7duJ7nkJv4F5w",
+        "url_finale": "https://entreprises.lefigaro.fr/hutek-humain-et-technologies-69/entreprise-882264237",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESgwEB6zswFbjNeZn-9CgXJ8rqwZET4GOQwWrGuX6TWxwlaJafuRWj_yGZuWLGMynvICQ8uxs3ck99YclJarzIb9UJcSwXn8nvb-4uJRDnU6m_VXZVfQo6Z5z_plmwCDP2rMuZEUIF2JfV4xcv9t0cjbuFxCPaho_IAVEB72Ha87bEMQuwQw",
+        "url_finale": "https://www.pappers.fr/entreprise/hutek-humain-et-technologies-882264237",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "Hutek",
+        "lien_original": "https://www.google.com/goto?url=CAESTwHrOzAVNbssr0FR727bkp0HHRfLUItRhSoHwzgivxYyradlJNtpo0HBVQjXIYrubabCUQJ5D-TuSikOWSyB0ujbJKIjSw41Blt2F_AkLAI",
+        "url_finale": "https://www.hutek.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESfwHrOzAVIAR_hFdCRGWxmwENYEWM4AJv0zVtKiBQucccC_w0DLgkBtGgM5hUgh971NBqtrj4VyslGjJf3kV4mJWfzmX3GKuEOulRePYETb8iQDxFa3T0-v0IHzO3EYtzBit_My6DVYL2uYpSd9_OQuza00eR3he0dF22oSf0tUA",
+        "url_finale": "https://annuaire-entreprises.data.gouv.fr/entreprise/hutek-919325332",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESdwHrOzAVbQrrtnRHG1wBkxz512j9NzGF04gQ9c8A0Yc4M3LxAHwPG0pKvw45WO7KGil3wLumexSgOm9SN5aUf9R_G7_U8eAfjaSn_XBM-1nQDtCYRq3TDgIQ-kLJBYydXyh6cx5FJJd5BSPQ5Lht0dyt7843dufK",
+        "url_finale": "https://fr.linkedin.com/company/hutek-humain-et-technologies",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESbwHrOzAVUjH1Zh8NuOGggdSCn1fGfQBMDT0Ptm_FpnLm6n_CGu2ULYg3GII4Qeb_j4QXJ5UmvOG6yIbpGK1KqwK-bi5JDm5nzLsXPU11HLQRvzDVO0HoTVkGWVO26aC8yMUxiWIRFhFYnAhU1kfDzg",
+        "url_finale": "https://www.societe.com/societe/hutek-919325332.html",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "A1.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "A2",
+    "group": "A",
+    "question_exacte": "Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ?",
+    "horodatage_utc": "2026-10-09T14:11:27.316Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Que+peux-tu+me+dire+sur+Hutek%2C+dont+le+site+officiel+est+hutek.fr+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfBu9Xq9xczMkQ0PSKJySPQz-PNsEcwNQ4AEUECoIitcFsTg7te1Q1JfjUexzFXnVjnHDZ0Jz5HG_8JA1NHQRL2gV9B_DkieTOAwF1pJqwiWqpLf9Fen69-SlbQbsLTt-4A9wbEG_8HibH3Cowi7gqHb9ZLEaPrhc3c",
+    "duree_ms": 22153,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ?\nVous avez envoyé : 1 onglet et dit : Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ?\nhutek - conseils, ingénierie et transformation par l'IA\nQue peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ?\nHutek (accessible sur son site officiel) est une entreprise française de conseil et d'ingénierie fondée en 2020 et spécialisée dans la transformation des entreprises par l'intelligence artificielle (IA). \ndata.gouv.fr\n +2\nBasée dans la région de Lyon (à Cailloux-sur-Fontaines) et fondée par Sébastien Hubert, la structure accompagne les organisations dans l'intégration stratégique de l'IA, le management digital et la conduite du changement. \nLinkedIn\n·hutek\n +1\nMéthodologie et approche\nL'accompagnement proposé par hutek s'articule autour d'une démarche en trois phases résumée par sa devise « Learn, Break & Become the rules » : \nwww.hutek.fr\nLearn : Comprendre concrètement les possibilités réelles et les défis de l'IA à l'aide de masterclass et de conférences stratégiques.\nBreak : Dépasser les schémas de pensée traditionnels pour bousculer les règles établies au sein de l'organisation.\nBecome : S'approprier l'outil pour devenir un acteur direct et souverain de sa transformation numérique. \nLinkedIn\n·hutek\nInformations clés\nForme juridique : Société par actions simplifiée (SAS) enregistrée sous le nom de Humain et Technologies.\nDate de création : Février 2020.\nFondateur : Sébastien Hubert.\nSiège social : Cailloux-sur-Fontaines (Rhône, près de Lyon).\nSecteur d'activité : Conseil pour les affaires, ingénierie informatique et transformation stratégique par l'IA. \ndata.gouv.fr\n +2\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\ndata.gouv.fr\nhutek humain et technologies hutek - L'Annuaire des Entreprises\n3 oct. 2026 — La société HUTEK HUMAIN ET TECHNOLOGIES (HUTEK) Sa forme juridique est SAS, société par actions simplifiée. au 130 RUE DE LA DIME ...\nLinkedIn\n·\nhutek\nhutek - LinkedIn\nSecteur: Technologies et services de l'information. Siège social: Lyon. Type: Société indépendante. Fondée en: 2020\nwww.hutek.fr\nAccueil - hutek | conseils et transformation IA\nNous accompagnons les entreprises dans leur transformation par l'intelligence artificielle avec notre méthodologie en trois phases...\nTout afficher\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "site officiel",
+        "lien_original": "https://www.google.com/goto?url=CAESUAHrOzAVEtSkRWweiYrGAB7wbtswYSAwUWHEBtGN9dt1WiZlGX-sZbJvE7YpUh2ZmsgLAUI1eeis5bIT5hdQxfN4YcZBKOiDqjGF5qujdZjm",
+        "url_finale": "https://www.hutek.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESnAEB6zswFdw7OwPb0vZaR_qQJW_fA-089lZDsj6dv03dwfsVOuTs_xkpdb-WdJGny-ZcRm-846s1hMLexT8V8j1Qtfu3SnGIJIHaX_i5cw6dikJzg6tIgrqRdffGbCu091jc4PVmDK1MWWfRXcEZ3WvRqTNr7X6joEIjYzfJC7DjAB3fjKeD4sKiPkU-2hz6brdZs9dhWuAiDblWyos",
+        "url_finale": "https://annuaire-entreprises.data.gouv.fr/entreprise/hutek-humain-et-technologies-hutek-882264237",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESdwHrOzAVY1Z2ooD06evyJVEsqKz0dyRmvXf9cQBibwNV5TP5lf7dCiB_fm1HBYtS_7kazBgN7him_791ysOTPjdzR54asWFkdr7blggvI_Ae03xUQl5KmnAxQY8ZC40GSJDJJiqkxlcgzmci25IOlnHgKq009vwO",
+        "url_finale": "https://fr.linkedin.com/company/hutek-humain-et-technologies",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAEStgEB6zswFU-NGjPrBa5MBTHeWdCT1VPdi0bAuyzKTemIH3euH1X3GXs8ydcp2BAwU8LvY-gJIlovbcUPThb47ddX30dnY_fnuix6OpLzUyg5oDYpugiHiUIN8tLYnfO7eIZj0zlioC4R-f7RqNgijMhaggf_yLC5s9jGaP6Q_iBQQVLxd_a-cc4nJVESM0PuxLvRZfhDLzTjEmClaeTxCJs_SxETVVBPVG9I7B9Ggd_5qonhqmSwdw",
+        "url_finale": "https://fr.linkedin.com/posts/sebastienhubert-hutek_1000-jours-cest-le-temps-quil-a-fallu-activity-7402376178638028800-PRmL",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "A2.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "A3",
+    "group": "A",
+    "question_exacte": "Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ?",
+    "horodatage_utc": "2026-10-09T14:11:59.482Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quels+services+propose+Hutek+et+%C3%A0+quels+types+d%27entreprises+s%27adressent-ils+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfBArwp7vfcE-1xjueIVJEkrfR4FMgu1NDv8ufkQGlZwEsTuT3ROC0ejQ30EhR_omULjxhFRckaATLZV0hvOvzvUUjYNFNy036zns4DlQK-lrhRcrP93J5kRSh4cWBzj7YiyRcwyBAOCs7g_Bi8WMga111TAwqoVgd4",
+    "duree_ms": 21194,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ?\nQuels services propose Hutek et à quels types d'entreprises s'adressent-ils ?\nChez Hutek (Humain et Technologies), l'activité s'articule autour de l'accompagnement à la transformation par l'intelligence artificielle et l'ingénierie IA à destination des entreprises cherchant à intégrer ces technologies dans leur organisation. \nLinkedIn\n·hutek\n +1\nServices proposés\nIngénierie IA : Développement de cas d'usage concrets, réalisation de preuves de concept (POC) et conception d'applications basées sur l'intelligence artificielle. \nLinkedIn\n·hutek\nTransformation organisationnelle : Accompagnement stratégique pour refondre les processus internes et adapter l'organisation face aux bouleversements liés à l'IA. \nLinkedIn\n·hutek\nConduite du changement : Suivi et soutien rapprochés des équipes pour faciliter l'adoption des nouveaux outils et méthodes de travail au quotidien. \nLinkedIn\n·hutek\nMéthodologie en trois temps : Une approche structurée reposant sur les étapes Learn (comprendre), Break (casser les règles établies) et Become (devenir la nouvelle référence). \nTypes d'entreprises visées\nOrganisations en quête de réinvention : S'adresse à toute structure qui refuse le statu quo et souhaite exploiter l'IA pour gagner en puissance, en créativité et en compétitivité. \nLinkedIn\n·hutek\nEntreprises de toute taille en phase de mutation technologique : Acteurs du secteur privé ou de l'économie cherchant un appui technique et humain pour opérationnaliser l'intelligence artificielle (allant du prototypage au déploiement organisationnel). \nLinkedIn\n·hutek\nSi vous le souhaitez, je peux vous aider à détailler comment intégrer une approche similaire d'ingénierie IA ou à définir des cas d'usage précis (POC) adaptés à votre propre secteur d'activité.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nwww.hutek.fr\nAccueil - hutek | conseils et transformation IA\nNous accompagnons les entreprises dans leur transformation par l'intelligence artificielle avec notre méthodologie en trois phases...\nLinkedIn\n·\nhutek\nhutek - LinkedIn\nSecteur: Technologies et services de l'information. Taille de l'entreprise: 1 employé. Siège social: Lyon. Type: Société indépenda...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESdwHrOzAVbjslpEmABcYvNs7HwqSy6GOxb-662_179FRsrNE635Ksq0GlIm-d3pnCxtlDl1r-4TOTP_oCc7zz3cqLafa24fLoGQY4zjaZ4njs3B0fl01QcunxpncAlD2zB49zcewupSKgTWFZjxSwwGjQREVQh2-0",
+        "url_finale": "https://fr.linkedin.com/company/hutek-humain-et-technologies",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESUAHrOzAV0J-dpyqOQI8MSQz9xoDT98v5_9N1KpMuN8-AjNfBkOdLD4kmvT3SnBps_k_xrxOrdxDUKc7Z9qoeP9PRA__h2H-frw_J_z_P7B91",
+        "url_finale": "https://www.hutek.fr/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "A3.png",
+    "status": "ok_complete"
+  }
+]
