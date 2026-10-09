@@ -26,6 +26,10 @@ function showLogin(msg) {
 }
 function showApp() { $("#login").hidden = true; $("#app").hidden = false; }
 function shot(auditId, f) { return "/screenshots/" + encodeURIComponent(auditId) + "/" + encodeURIComponent(f); }
+function srcTitle(s) {
+  if (s.titre && s.titre !== "(sans titre)") return s.titre;
+  try { return new URL(s.url_finale || s.lien_original).hostname.replace(/^www\./, ""); } catch (e) { return s.titre || "(source)"; }
+}
 function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
 async function boot() {
   document.querySelectorAll("#tabs button").forEach((b) => b.onclick = () => {
@@ -79,7 +83,7 @@ function renderSynthese() {
   const ind = rep.indicateurs;
   const f = (o) => o.den ? Math.round(o.val * 100) + " % <span class=mut>(" + o.num + "/" + o.den + ")</span>" : "<span class=mut>non calculable</span>";
   $("#v-synthese").innerHTML =
-    "<h2>Dernier audit : " + esc(d.meta.id) + "</h2><p class=mut>" + esc(d.meta.started_utc) + " · protocole " + esc(d.meta.protocole) + " · complétude " + rep.completude.reussies + "/" + rep.completude.total + "</p>"
+    "<h2>Dernier audit : " + esc(d.meta.id) + "</h2><p class=mut>" + esc(d.meta.started_utc) + " · protocole " + esc(rep.protocole || d.meta.protocolVersion) + " · complétude " + rep.completude.reussies + "/" + rep.completude.total + "</p>"
     + "<div class=kpi><div><b>" + f(ind.taux_mention) + "</b><br>Mention spontanée</div><div><b>" + f(ind.taux_recommandation) + "</b><br>Recommandation</div><div><b>" + f(ind.taux_citation_domaine) + "</b><br>hutek.fr en sources</div><div><b>" + ind.echecs + "</b><br>Échecs exclus des taux<br><span class=mut>" + esc(ind.echecs_ids.join(", ") || "aucun") + "</span></div></div>"
     + "<h3>Synthèse</h3><ul>" + rep.sections.synthese.map((s) => "<li>" + esc(s) + "</li>").join("") + "</ul>"
     + "<h3>Concurrents les plus recommandés</h3>" + (rep.top_concurrents.length ? "<table><tr><th>Nom (heuristique)</th><th>Présence</th></tr>" + rep.top_concurrents.map((c) => "<tr><td>" + esc(c.nom) + "</td><td>" + c.audits + "</td></tr>").join("") + "</table>" : "<p class=mut>Aucun concurrent extrait.</p>")
@@ -93,7 +97,7 @@ function renderGroup(g) {
   const el = g === "B" ? $("#v-sans") : $("#v-avec");
   el.innerHTML = "<h2>" + (g === "B" ? "Recherches sans mention de Hutek" : "Recherches avec Hutek mentionnée") + "</h2>" + obs.map((o) => {
     const r = res[o.question_id] || {};
-    const srcs = (r.sources || []).map((s) => "<li><a href=\"" + esc(s.url_finale || s.lien_original) + "\" target=_blank rel=noopener>" + esc(s.titre || s.url_finale || s.lien_original) + "</a><br><span class=mut>" + esc(s.url_finale || s.lien_original) + (s.finale_obtenue ? "" : " (finale non obtenue)") + "</span></li>").join("");
+    const srcs = (r.sources || []).map((s) => "<li><a href=\"" + esc(s.url_finale || s.lien_original) + "\" target=_blank rel=noopener>" + esc(srcTitle(s)) + "</a><br><span class=mut>" + esc(s.url_finale || s.lien_original) + (s.finale_obtenue ? "" : " (finale non obtenue)") + "</span></li>").join("");
     const img = r.capture ? "<img class=shot data-src=\"" + shot(d.meta.id, r.capture) + "\" alt=\"capture " + esc(o.question_id) + " (chargement…)\" loading=lazy><br><button class=\"btn ghost\" data-dl=\"" + shot(d.meta.id, r.capture) + "\" data-fn=\"" + esc(d.meta.id + "-" + o.question_id + ".png") + "\">Télécharger la capture</button>" : "<p class=mut>Capture indisponible (" + esc(r.status || "?") + ").</p>";
     const spec = g === "B"
       ? "<p>Mention : <b>" + (o.hutek_mention_texte ? "oui" : "non") + "</b> · Recommandée : <b>" + (o.hutek_recommandee ? "oui" : "non") + "</b> · Position : <b>" + esc(String(o.position_liste)) + "</b> · hutek.fr en sources : <b>" + (o.hutek_fr_en_sources ? "oui" : "non") + "</b><br><span class=mut>" + esc(o.recommandation_raison || "") + "</span>" + (o.extraits.mention_hutek ? "<br>Extrait : « " + esc(o.extraits.mention_hutek.slice(0, 280)) + " »" : "") + "</p>"
