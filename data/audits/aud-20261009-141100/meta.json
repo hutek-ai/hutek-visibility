@@ -2,7 +2,9 @@
   "id": "aud-20261009-141100",
   "dateKey": "2026-10-09",
   "started_utc": "2026-10-09T14:11:00.112Z",
-  "status": "running",
+  "status": "done",
   "protocolVersion": "2026-10-09-v1",
-  "total": 13
+  "total": 13,
+  "finished_utc": "2026-10-09T14:17:54.719Z",
+  "complete": 13
 }

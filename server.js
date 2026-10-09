@@ -94,10 +94,11 @@ function reportHtml(meta, report, results) {
 
 const app = express();
 app.use(express.json({ limit: "512kb" }));
+// Sante publique AVANT l'authentification (healthcheck Docker/Dokploy, sinon boucles de redemarrage)
+app.get("/api/health", (req, res) => res.json({ status: "ok", app: APP_NAME, version: APP_VERSION, time: new Date().toISOString(), selenium: process.env.SELENIUM_URL || "http://10.0.1.153:4444", running: [...running.keys()] }));
 app.use(basicAuth);
 app.use(express.static(path.join(__dirname, "public")));
 
-app.get("/api/health", (req, res) => res.json({ status: "ok", app: APP_NAME, version: APP_VERSION, time: new Date().toISOString(), selenium: process.env.SELENIUM_URL || "http://google-browser:4444", running: [...running.keys()] }));
 app.get("/api/config", (req, res) => res.json(QUESTIONS));
 app.get("/api/audits", (req, res) => res.json(auditMetaList()));
 app.post("/api/audits/start", needToken, (req, res) => {

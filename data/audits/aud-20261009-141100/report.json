@@ -1,0 +1,491 @@
+{
+  "audit_id": "aud-20261009-141100",
+  "date_utc": "2026-10-09T14:11:00.112Z",
+  "protocole": "2026-10-09-v1",
+  "completude": {
+    "reussies": 13,
+    "total": 13,
+    "echecs": 0
+  },
+  "indicateurs": {
+    "perimetre": "recherches sans marque (groupe B), reussies et completes uniquement",
+    "reussies": 6,
+    "echecs": 0,
+    "echecs_ids": [],
+    "taux_mention": {
+      "num": 0,
+      "den": 6,
+      "val": 0
+    },
+    "taux_recommandation": {
+      "num": 0,
+      "den": 6,
+      "val": 0
+    },
+    "taux_citation_domaine": {
+      "num": 0,
+      "den": 6,
+      "val": 0
+    }
+  },
+  "top_concurrents": [],
+  "sections": {
+    "synthese": [
+      "Audit de visibilite Hutek dans le Mode IA de Google — aud-20261009-141100 (2026-10-09T14:11:00.112Z).",
+      "13 recherche(s) reussie(s) et complete(s) sur 13 ; 0 echec(s) ou incomplet(s), exclus des taux.",
+      "Visibilite spontanee (groupe B) : mention 0 % (0/6), recommandation 0 % (0/6), citation hutek.fr en sources 0 % (0/6).",
+      "Premier audit de la serie : aucune comparaison historique disponible."
+    ],
+    "observations_sans_hutek": [
+      {
+        "question": "B1",
+        "mention": false,
+        "recommandee": false,
+        "position": "non applicable",
+        "hutek_fr_source": false,
+        "concurrents": [],
+        "justification": "aucune mention de Hutek dans le texte",
+        "extrait": ""
+      },
+      {
+        "question": "B2",
+        "mention": false,
+        "recommandee": false,
+        "position": "non applicable",
+        "hutek_fr_source": false,
+        "concurrents": [],
+        "justification": "aucune mention de Hutek dans le texte",
+        "extrait": ""
+      },
+      {
+        "question": "B3",
+        "mention": false,
+        "recommandee": false,
+        "position": "non applicable",
+        "hutek_fr_source": false,
+        "concurrents": [],
+        "justification": "aucune mention de Hutek dans le texte",
+        "extrait": ""
+      },
+      {
+        "question": "B4",
+        "mention": false,
+        "recommandee": false,
+        "position": "non applicable",
+        "hutek_fr_source": false,
+        "concurrents": [],
+        "justification": "aucune mention de Hutek dans le texte",
+        "extrait": ""
+      },
+      {
+        "question": "B5",
+        "mention": false,
+        "recommandee": false,
+        "position": "non applicable",
+        "hutek_fr_source": false,
+        "concurrents": [],
+        "justification": "aucune mention de Hutek dans le texte",
+        "extrait": ""
+      },
+      {
+        "question": "B6",
+        "mention": false,
+        "recommandee": false,
+        "position": "non applicable",
+        "hutek_fr_source": false,
+        "concurrents": [],
+        "justification": "aucune mention de Hutek dans le texte",
+        "extrait": ""
+      }
+    ],
+    "observations_avec_hutek": [
+      {
+        "question": "A1",
+        "ton": "neutre",
+        "confusion": "La reponse evoque aussi une SCI parisienne homonyme : verifier qu'il s'agit bien de Hutek Humain et Technologies (Lyon, hutek.fr).",
+        "avis": "aucun avis accessible dans la reponse",
+        "points_forts": [],
+        "limites": []
+      },
+      {
+        "question": "A2",
+        "ton": "neutre",
+        "confusion": null,
+        "avis": "aucun avis accessible dans la reponse",
+        "points_forts": [],
+        "limites": []
+      },
+      {
+        "question": "A3",
+        "ton": "positif",
+        "confusion": null,
+        "avis": "aucun avis accessible dans la reponse",
+        "points_forts": [
+          "LinkedIn ·hutek Si vous le souhaitez, je peux vous aider à détailler comment intégrer une approche similaire d'ingénierie IA ou à définir des cas d'usage précis (POC) adaptés à votre propre secteur d'activité."
+        ],
+        "limites": []
+      },
+      {
+        "question": "A4",
+        "ton": "positif",
+        "confusion": null,
+        "avis": "passages evoquant des avis (a verifier source par source)",
+        "points_forts": [
+          "Témoignage professionnel : On trouve une citation publique de Sébastien Hubert, présenté comme le fondateur de Hutek, qui s'exprime en tant que client d'une autre entreprise (l'expert-comptable en ligne Dougs), où il attribue 5 étoiles à ce prestataire.",
+          "En savoir plus Dougs Expert-comptable en ligne pas cher, simple et efficace - Dougs Je recommande vivement Dougs, très bonne expérience d'aide a la création d'entreprise."
+        ],
+        "limites": []
+      },
+      {
+        "question": "A5",
+        "ton": "mixte",
+        "confusion": null,
+        "avis": "aucun avis accessible dans la reponse",
+        "points_forts": [
+          "Expertise reconnue : Un positionnement d'expert IA référencé par Bpifrance, garantissant une bonne connaissance des enjeux et des leviers de financement pour les PME.",
+          "LinkedIn ·Sébastien Hubert Ingénierie GenAI concrète : Une capacité à concevoir et prototyper des agents ou des solutions d'IA générative adaptés aux cas d'usage réels des PME (comme l'optimisation des processus ou le support)."
+        ],
+        "limites": [
+          "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?",
+          "Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?",
+          "YouTube ·HUTEK - l'évolution digitale +1 Limites et points de vigilance Structure de taille restreinte : En tant que cabinet ou structure conseil à taille humaine, la capacité d'intervention simultanée sur de grands volumes de chantiers technologiques lourds est nécessairement limitée par rapport aux ESN ou grands cabinets internationaux."
+        ]
+      },
+      {
+        "question": "A6",
+        "ton": "positif",
+        "confusion": null,
+        "avis": "passages evoquant des avis (a verifier source par source)",
+        "points_forts": [
+          "Hutek serait-elle adaptée ?",
+          "Hutek serait-elle adaptée ?",
+          "Hutek apparait comme une structure adaptée pour accompagner une PME dans sa démarche d'intégration de l'intelligence artificielle, en particulier grâce à son positionnement d'expert référencé par Bpifrance pour le financement des projets technologiques."
+        ],
+        "limites": []
+      },
+      {
+        "question": "A7",
+        "ton": "neutre",
+        "confusion": null,
+        "avis": "aucun avis accessible dans la reponse",
+        "points_forts": [],
+        "limites": []
+      }
+    ],
+    "changements": [
+      "Aucun historique : cet audit sert de reference."
+    ],
+    "limites": [
+      "Observations valables uniquement dans les conditions testees (Mode IA, langue fr, date 2026-10-09T14:11:00.112Z) ; ce n'est pas un classement universel de Google.",
+      "Geolocalisation et compte non verifiables avec la session partagee ; conditions enregistrees telles quelles.",
+      "Concurrents extraits par heuristique (items de liste) : indicatifs, non exhaustifs.",
+      "Affirmations non verifiees restees « non verifiees » ; absence d'avis ne vaut ni bonne ni mauvaise reputation.",
+      "Aucun echec technique sur cet audit."
+    ],
+    "actions": [
+      "Hutek absente des recommandations spontanees : travailler le referencement et les contenus repris par le Mode IA (etudes de cas, pages locales Lyon/AuRA).",
+      "Lever l'ambiguite avec la SCI homonyme : preciser « Hutek Humain et Technologies — Lyon, hutek.fr » dans les contenus.",
+      "Surveiller hutek.fr en sources : 0/6 ; viser une presence systematique via pages factuelles."
+    ]
+  },
+  "observations": [
+    {
+      "question_id": "A1",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « entreprise Hutek ? Que peux-tu me dire sur l'entreprise Hutek ? L'entreprise Hutek (officiellement enregistrée sous le nom de Hutek »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": true,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "asser directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Que peux-tu me dire sur l'entreprise Hutek ? Que peux-tu me dire sur l'entreprise Hutek ? L'entreprise Hutek (officiellement enregistrée sous le nom de Hutek Humain et Technologies) est une société par actions simplifiée u",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Que peux-tu me dire sur l'entreprise Hutek ? Que peux-tu me dire sur l'entreprise Hutek ? L'entreprise Hutek (officiellement enregistrée sous le nom de Hutek Humain et Technologies) est une société par actions simplifiée unipersonnelle (SASU) spécialisée dans le conseil en gestion et en technologies. Pappers +2 Informations générales Date de création : 7 mars 2020 Siège social : Cailloux-sur-Fontaines (près de Lyon), dans le Rhône Forme juridique : SASU Secteur d'activité : Conseil pour les affaires et autres conseils de gestion, technologies et serv"
+      },
+      "ton": "neutre",
+      "ton_indices": {
+        "positifs": [],
+        "negatifs": []
+      },
+      "points_forts_passages": [],
+      "limites_passages": [],
+      "avis_passages": [],
+      "avis_statut": "aucun avis accessible dans la reponse",
+      "confusion_possible": "La reponse evoque aussi une SCI parisienne homonyme : verifier qu'il s'agit bien de Hutek Humain et Technologies (Lyon, hutek.fr)."
+    },
+    {
+      "question_id": "A2",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « entreprises par l'intelligence artificielle (IA). data.gouv.fr +2 Basée dans la région de Lyon (à Cailloux-sur-Fontaines) et fondée par Sébastien Hubert, la str »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": true,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ? Vous avez envoyé : 1 onglet et dit : Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ? hutek - conseils, ingénierie et tran",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ? Vous avez envoyé : 1 onglet et dit : Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ? hutek - conseils, ingénierie et transformation par l'IA Que peux-tu me dire sur Hutek, dont le site officiel est hutek.fr ? Hutek (accessible sur son site officiel) est une entreprise française de conseil et d'ingénierie fondée en 2020 et spécialisée dans la transformation des entreprises par l'intelligence artificielle (IA). data.gouv.fr +2 Basée dans la région de Lyon (à Caillou"
+      },
+      "ton": "neutre",
+      "ton_indices": {
+        "positifs": [],
+        "negatifs": []
+      },
+      "points_forts_passages": [],
+      "limites_passages": [],
+      "avis_passages": [],
+      "avis_statut": "aucun avis accessible dans la reponse"
+    },
+    {
+      "question_id": "A3",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « propose Hutek et à quels types d'entreprises s'adressent-ils ? Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ? Chez Hutek »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": true,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ? Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ? Chez Hutek (Humain et Technologies), l'activité s'ar",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ? Quels services propose Hutek et à quels types d'entreprises s'adressent-ils ? Chez Hutek (Humain et Technologies), l'activité s'articule autour de l'accompagnement à la transformation par l'intelligence artificielle et l'ingénierie IA à destination des entreprises cherchant à intégrer ces technologies dans leur organisation. LinkedIn ·hutek +1 Services proposés Ingénierie IA : Développement de cas d'usage concrets, réalisation de preuves de concept (POC) et conception d'app"
+      },
+      "ton": "positif",
+      "ton_indices": {
+        "positifs": [
+          "adapté"
+        ],
+        "negatifs": []
+      },
+      "points_forts_passages": [
+        "LinkedIn ·hutek Si vous le souhaitez, je peux vous aider à détailler comment intégrer une approche similaire d'ingénierie IA ou à définir des cas d'usage précis (POC) adaptés à votre propre secteur d'activité."
+      ],
+      "limites_passages": [],
+      "avis_passages": [],
+      "avis_statut": "aucun avis accessible dans la reponse"
+    },
+    {
+      "question_id": "A4",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « entreprise ou la marque Hutek »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "rincipal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources. Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources. Il n'existe pas d'avis clients ou de retours d'expérience publics",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources. Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources. Il n'existe pas d'avis clients ou de retours d'expérience publics centralisés concernant directement l'entreprise ou la marque Hutek sur les grandes plateformes de référence (telles que Trustpilot, Google Maps/Avis ou Avis Vérifiés). Éléments contextuels identifiés : Mentions isolées : Une recherche publique met parfois en évidence des homonymes ou des signalements de"
+      },
+      "ton": "positif",
+      "ton_indices": {
+        "positifs": [
+          "expert"
+        ],
+        "negatifs": []
+      },
+      "points_forts_passages": [
+        "Témoignage professionnel : On trouve une citation publique de Sébastien Hubert, présenté comme le fondateur de Hutek, qui s'exprime en tant que client d'une autre entreprise (l'expert-comptable en ligne Dougs), où il attribue 5 étoiles à ce prestataire.",
+        "En savoir plus Dougs Expert-comptable en ligne pas cher, simple et efficace - Dougs Je recommande vivement Dougs, très bonne expérience d'aide a la création d'entreprise."
+      ],
+      "limites_passages": [],
+      "avis_passages": [
+        "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ?",
+        "Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ?",
+        "Il n'existe pas d'avis clients ou de retours d'expérience publics centralisés concernant directement l'entreprise ou la marque Hutek sur les grandes plateformes de référence (telles que Trustpilot, Google Maps/Avis ou Avis Vérifiés).",
+        "Témoignage professionnel : On trouve une citation publique de Sébastien Hubert, présenté comme le fondateur de Hutek, qui s'exprime en tant que client d'une autre entreprise (l'expert-comptable en ligne Dougs), où il attribue 5 étoiles à ce prestataire.",
+        "Aucune page d'avis propre à l'activité de Hutek n'est cependant rattachée à ce témoignage.",
+        "Dougs Sources consultées : Facebook - Signalements groupes Dougs - Témoignage client Si Hutek correspond à un nom d'entreprise très récent, à un nom commercial différent ou à une enseigne locale spécifique, pouvez-vous me préciser son secteur d'activité ou sa ville/région afin d'affiner la recherche ?"
+      ],
+      "avis_statut": "passages evoquant des avis (a verifier source par source)"
+    },
+    {
+      "question_id": "A5",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « propose un accompagnement sur-mesure pour les PME articulé autour de sa méthodologie en trois phases (Learn, Break, Become), combinant conseil stratégique aux d »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": true,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "ectement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ? Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ? Hutek (Hu",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ? Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ? Hutek (Humain et Technologies) propose un accompagnement sur-mesure pour les PME articulé autour de sa méthodologie en trois phases (Learn, Break, Become), combinant conseil stratégique aux dirigeants, design de solutions et ingénierie en IA générative. LinkedIn ·Sébastien Hubert +1 Points forts de Hutek Approche humaine et technolo"
+      },
+      "ton": "mixte",
+      "ton_indices": {
+        "positifs": [
+          "expert",
+          "adapté"
+        ],
+        "negatifs": [
+          "limite",
+          "insuffisant"
+        ]
+      },
+      "points_forts_passages": [
+        "Expertise reconnue : Un positionnement d'expert IA référencé par Bpifrance, garantissant une bonne connaissance des enjeux et des leviers de financement pour les PME.",
+        "LinkedIn ·Sébastien Hubert Ingénierie GenAI concrète : Une capacité à concevoir et prototyper des agents ou des solutions d'IA générative adaptés aux cas d'usage réels des PME (comme l'optimisation des processus ou le support)."
+      ],
+      "limites_passages": [
+        "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?",
+        "Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?",
+        "YouTube ·HUTEK - l'évolution digitale +1 Limites et points de vigilance Structure de taille restreinte : En tant que cabinet ou structure conseil à taille humaine, la capacité d'intervention simultanée sur de grands volumes de chantiers technologiques lourds est nécessairement limitée par rapport aux ESN ou grands cabinets internationaux."
+      ],
+      "avis_passages": [],
+      "avis_statut": "aucun avis accessible dans la reponse"
+    },
+    {
+      "question_id": "A6",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ? Je dirige une PME et cherche un partenaire pour intégrer l'IA »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": true,
+      "hutek_fr_en_sources": true,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "nu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Je dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ? Je dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Je dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ? Je dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ? Hutek apparait comme une structure adaptée pour accompagner une PME dans sa démarche d'intégration de l'intelligence artificielle, en particulier grâce à son positionnement d'expert référencé par Bpifrance pour le financement des projets technologiques. www.hutek.fr Éléments d'évaluation de Hu"
+      },
+      "ton": "positif",
+      "ton_indices": {
+        "positifs": [
+          "expert",
+          "adapté",
+          "adaptée",
+          "positif"
+        ],
+        "negatifs": []
+      },
+      "points_forts_passages": [
+        "Hutek serait-elle adaptée ?",
+        "Hutek serait-elle adaptée ?",
+        "Hutek apparait comme une structure adaptée pour accompagner une PME dans sa démarche d'intégration de l'intelligence artificielle, en particulier grâce à son positionnement d'expert référencé par Bpifrance pour le financement des projets technologiques.",
+        "www.hutek.fr Éléments d'évaluation de Hutek Accompagnement et Financement : L'entreprise Hutek indique être un expert référencé par Bpifrance, ce qui facilite l'orientation et l'obtention d'aides ou de subventions publiques dédiées aux projets d'IA en PME et ETI.",
+        "www.hutek.fr Cible dédiée : Leurs interventions se concentrent sur le conseil et la transformation par l'IA adaptés aux structures de taille intermédiaire (PME/ETI), évitant ainsi les approches sur-mesure disproportionnées des grands cabinets de conseil."
+      ],
+      "limites_passages": [],
+      "avis_passages": [
+        "Sur quels éléments fondes-tu ton avis ?",
+        "Sur quels éléments fondes-tu ton avis ?",
+        "Diag IA Bpifrance) Sécurité des données Conformité RGPD et gestion des données sensibles Approche graduelle Capacité à lancer un projet pilote simple et mesurable Pour préciser cet avis, pouvez-vous me dire : Quel est le secteur d'activité de votre PME ?"
+      ],
+      "avis_statut": "passages evoquant des avis (a verifier source par source)"
+    },
+    {
+      "question_id": "A7",
+      "group": "A",
+      "status": "ok_complete",
+      "hutek_mention_texte": true,
+      "hutek_recommandee": true,
+      "recommandation_raison": "contexte de recommandation : « cabinet comme Hutek »",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {
+        "mention_hutek": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ? Quelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ? Pour un projet de tr",
+        "activite": "Passer directement au contenu principal Aide sur l'accessibilité Mode IA Tous Images Vidéos Actualités Plus Connexion Conversation en Mode IA : Quelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ? Quelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ? Pour un projet de transformation par l'IA (conseil aux dirigeants, design de solutions, ingénierie GenAI et accompagnement stratégique) comparable à l'approche sur-mesure d'un cabinet comme Hutek, vous pouvez vous tourner vers des acteurs spécialisés en France (notamment ancrés en région ou nationaux) qui proposent du diagnostic, de la conception de solutions et de "
+      },
+      "ton": "neutre",
+      "ton_indices": {
+        "positifs": [],
+        "negatifs": []
+      },
+      "points_forts_passages": [],
+      "limites_passages": [],
+      "avis_passages": [],
+      "avis_statut": "aucun avis accessible dans la reponse"
+    },
+    {
+      "question_id": "B1",
+      "group": "B",
+      "status": "ok_complete",
+      "hutek_mention_texte": false,
+      "hutek_recommandee": false,
+      "recommandation_raison": "aucune mention de Hutek dans le texte",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {}
+    },
+    {
+      "question_id": "B2",
+      "group": "B",
+      "status": "ok_complete",
+      "hutek_mention_texte": false,
+      "hutek_recommandee": false,
+      "recommandation_raison": "aucune mention de Hutek dans le texte",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {}
+    },
+    {
+      "question_id": "B3",
+      "group": "B",
+      "status": "ok_complete",
+      "hutek_mention_texte": false,
+      "hutek_recommandee": false,
+      "recommandation_raison": "aucune mention de Hutek dans le texte",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {}
+    },
+    {
+      "question_id": "B4",
+      "group": "B",
+      "status": "ok_complete",
+      "hutek_mention_texte": false,
+      "hutek_recommandee": false,
+      "recommandation_raison": "aucune mention de Hutek dans le texte",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {}
+    },
+    {
+      "question_id": "B5",
+      "group": "B",
+      "status": "ok_complete",
+      "hutek_mention_texte": false,
+      "hutek_recommandee": false,
+      "recommandation_raison": "aucune mention de Hutek dans le texte",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {}
+    },
+    {
+      "question_id": "B6",
+      "group": "B",
+      "status": "ok_complete",
+      "hutek_mention_texte": false,
+      "hutek_recommandee": false,
+      "recommandation_raison": "aucune mention de Hutek dans le texte",
+      "position_liste": "non applicable",
+      "liste_ordonnee_detectee": false,
+      "hutek_fr_en_sources": false,
+      "concurrents": [],
+      "extraits": {}
+    }
+  ]
+}

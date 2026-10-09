@@ -148,5 +148,624 @@
     ],
     "capture": "A3.png",
     "status": "ok_complete"
+  },
+  {
+    "question_id": "A4",
+    "group": "A",
+    "question_exacte": "Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources.",
+    "horodatage_utc": "2026-10-09T14:12:29.777Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quels+avis+clients+et+retours+d%27exp%C3%A9rience+publics+trouve-t-on+sur+Hutek+%3F+Cite+tes+sources.&hl=fr&gl=fr&csuir=1&mstk=AUtExfDsBLXsUZe6oXYKJbul1FlAUBdegE0GIntHq4hWJPa1eQ9_-1v5GFtF6Ooo3WHtuQP80ZlQ3gtLTZTcwCqzmdHc0k7j-ugK86M_wEZBtSNED0H4MspcrOxfldFBOPKo7n7TGnX-1_lPnWTkHQJkj2NudawG0GrXVKE",
+    "duree_ms": 21600,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources.\nQuels avis clients et retours d'expérience publics trouve-t-on sur Hutek ? Cite tes sources.\nIl n'existe pas d'avis clients ou de retours d'expérience publics centralisés concernant directement l'entreprise ou la marque Hutek sur les grandes plateformes de référence (telles que Trustpilot, Google Maps/Avis ou Avis Vérifiés).\nÉléments contextuels identifiés :\nMentions isolées : Une recherche publique met parfois en évidence des homonymes ou des signalements de particuliers (par exemple, des signalements sur les réseaux sociaux concernant des profils ou noms associés comme Angelique Hutek dans des signalements d'achats douteux sur les réseaux sociaux), mais sans lien avec une entité commerciale officielle formalisée sous ce nom. \nTémoignage professionnel : On trouve une citation publique de Sébastien Hubert, présenté comme le fondateur de Hutek, qui s'exprime en tant que client d'une autre entreprise (l'expert-comptable en ligne Dougs), où il attribue 5 étoiles à ce prestataire. Aucune page d'avis propre à l'activité de Hutek n'est cependant rattachée à ce témoignage. \nDougs\nSources consultées :\nFacebook - Signalements groupes\nDougs - Témoignage client \nSi Hutek correspond à un nom d'entreprise très récent, à un nom commercial différent ou à une enseigne locale spécifique, pouvez-vous me préciser son secteur d'activité ou sa ville/région afin d'affiner la recherche ?\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nDougs\nExpert-comptable en ligne pas cher, simple et efficace - Dougs\nJe recommande vivement Dougs, très bonne expérience d'aide a la création d'entreprise. Outils intuitifs et les échanges avec les c...\nFacebook\n·\nALERTES - VICTIMES D'ARNAQUE ET ESCROQUERIE\nGrossiste et vente de parfums de 33 et 100ml attention rempli ...\n17 avr. 2025 — facebook a ceux que vendent parfums. Omme toutes ces annonces ici, parfums, baskets, survêtements......pourtant … acheter sur FB o...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESUAHrOzAVUWFPs7d8rAQ-IB6ivlfQEq9Jz_XIeK-X1RD9JBaR2hwEdaB0SvH2qkTpyOlVzsIWb9Zx7OWGw3Y-fnnrj3Y4fXlv8n_H0LVphQTK",
+        "url_finale": "https://www.dougs.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Facebook - Signalements groupes",
+        "lien_original": "https://www.google.com/goto?url=CAESggEB6zswFcqDGrL5Vy00kqnGhvsabsoVq3zwmDaykMofEm6pDzo61aZxPPyCJouNDhKgeDFZ5fo2nstfkBlrLSf5-uQQ52hAyHy4xu7fyH1T8NNM7kuo2BYs8y4MmiUaV4iD0SChu4n45lybJ-xBblSSO23CfDf_B0nOMrclrumUopt2",
+        "url_finale": "https://www.facebook.com/groups/490265835740491/posts/1098942588206143/",
+        "finale_obtenue": false,
+        "note": null
+      }
+    ],
+    "capture": "A4.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "A5",
+    "group": "A",
+    "question_exacte": "Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?",
+    "horodatage_utc": "2026-10-09T14:13:00.111Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quels+sont+les+points+forts+et+les+limites+de+Hutek+pour+accompagner+une+PME+dans+sa+transformation+par+l%27IA+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfD60OvN8WYZoEWSwbZ7lHJ4k3AiI3zst1CvuZJreMUn35Xp3MY5SWc_M2Vps8PiLgy_XTERavkbN26_AxghI-BG3b0zf-CHxYkLHm9FT6RLFEoD0aQe1dz55nDYzYKw2hAoEgwFlG8pmgyPu_Cdl4ucgAtrP2AoW9k",
+    "duree_ms": 21354,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?\nQuels sont les points forts et les limites de Hutek pour accompagner une PME dans sa transformation par l'IA ?\nHutek (Humain et Technologies) propose un accompagnement sur-mesure pour les PME articulé autour de sa méthodologie en trois phases (Learn, Break, Become), combinant conseil stratégique aux dirigeants, design de solutions et ingénierie en IA générative. \nLinkedIn\n·Sébastien Hubert\n +1\nPoints forts de Hutek\nApproche humaine et technologique : L'intégration d'une vision globale qui place l'humain au centre de la transformation, évitant ainsi le piège d'un déploiement purement technique.\nMéthodologie structurée en phases : Un parcours clair (Learn, Break, Become) qui permet d'acculturer les équipes, d'expérimenter en sécurité et de structurer l'adoption pérenne de l'IA. \nExpertise reconnue : Un positionnement d'expert IA référencé par Bpifrance, garantissant une bonne connaissance des enjeux et des leviers de financement pour les PME. \nLinkedIn\n·Sébastien Hubert\nIngénierie GenAI concrète : Une capacité à concevoir et prototyper des agents ou des solutions d'IA générative adaptés aux cas d'usage réels des PME (comme l'optimisation des processus ou le support). \nYouTube\n·HUTEK - l'évolution digitale\n +1\nLimites et points de vigilance\nStructure de taille restreinte : En tant que cabinet ou structure conseil à taille humaine, la capacité d'intervention simultanée sur de grands volumes de chantiers technologiques lourds est nécessairement limitée par rapport aux ESN ou grands cabinets internationaux.\nDépendance à l'engagement interne : L'approche sur-mesure et orientée conseil nécessite une forte implication de la direction et des équipes de la PME, ce qui peut freiner le projet si le temps alloué en interne est insuffisant.\nCouverture sectorielle ou géographique : Une proximité forte (basée historiquement à Lyon / Auvergne-Rhône-Alpes) qui peut impliquer des modalités d'organisation à distance pour des PME situées dans d'autres régions. \nLinkedIn\n·Sébastien Hubert\nSi vous le souhaitez, précisez-moi la taille de votre PME et votre secteur d'activité pour évaluer si cette approche correspond à vos besoins de transformation numérique.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nLinkedIn\n·\nSébastien Hubert\nSébastien Hubert - Applied AI & Transformation Leader\nLyon, Auvergne-Rhône-Alpes, France. Conseil aux dirigeants, design de solutions, engineering GenAI et accompagnement de la transfo...\nwww.hutek.fr\nAccueil - hutek | conseils et transformation IA\nNous accompagnons les entreprises dans leur transformation par l'intelligence artificielle avec notre méthodologie en trois phases...\nYouTube\n·\nHUTEK - l'évolution digitale\nEt si vous embauchiez un agent IA ?\n29 août 2023 — Pour recruter un agent IA : www.hutek.fr Vous souvenez-vous de la dernière fois que vous avez dû appeler votre messagerie vocale,\n10:08\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESawHrOzAVmTg8wUoIGrnBSmfJF_m5ycC0OAUInWiOMkn2cvps3qp2lPk5pRESjsZkMvmyEIXdpKvR_ybovFeKs29GrgzzuwTeSK056tMn_PggT7BcQnmD8MoiZ0NWu9bVU425FcsVXrs0QcR_",
+        "url_finale": "https://fr.linkedin.com/in/sebastienhubert-hutek",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "Bpifrance",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAViS2GI0gWSC1XE4exhNhfATpQeft4dmjjHzyICIEA1_ZtyZPYDJWI3fPTtH4zNVdEF9_ZwPBZOUzsWD-Z2W-znKGwzu0SlQF0AfV5yRkd",
+        "url_finale": "https://www.bpifrance.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESZgHrOzAVLf2r58JMRFPOYM4a7mJy66Z6I1WuozuSIKcqDtM0WWHSl7qKJkaoosg972K-Oo_sYzIHmCCGeJdHHN2qGRIvxceS2Ghg_LIgf6cVlNjn8OISp47dE3DDznrjqJGvAwHggw",
+        "url_finale": "https://www.youtube.com/watch?v=82CPYsqaG8Y",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESUAHrOzAVZ2TU8Ad748b-g3RwK1oyiBTSZl-M1h1FrwaoC_L9QsJgwD3MUWO8ywzPQurs8LxOrvHEk8Fg6U0CsBPV91WMOK90DvdezZBd9Zx5",
+        "url_finale": "https://www.hutek.fr/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "A5.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "A6",
+    "group": "A",
+    "question_exacte": "Je dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ?",
+    "horodatage_utc": "2026-10-09T14:13:31.194Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Je+dirige+une+PME+et+cherche+un+partenaire+pour+int%C3%A9grer+l%27IA.+Hutek+serait-elle+adapt%C3%A9e+%3F+Sur+quels+%C3%A9l%C3%A9ments+fondes-tu+ton+avis+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfCgmNrCmEEas5Cp101_Csh2hCE7wVYF6hA2z4DMbZycwjHXBjYv_UbPQikXqaY8Q6KC99poisqfajaQd5SnHglCMwwmfYm6cyZobj4XgcHwYLuTHBvG9LwhCl-ulhGfulV_nvF7Udt1MWL-SFjtTKdIUiANVPt1npY",
+    "duree_ms": 21301,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Je dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ?\nJe dirige une PME et cherche un partenaire pour intégrer l'IA. Hutek serait-elle adaptée ? Sur quels éléments fondes-tu ton avis ?\nHutek apparait comme une structure adaptée pour accompagner une PME dans sa démarche d'intégration de l'intelligence artificielle, en particulier grâce à son positionnement d'expert référencé par Bpifrance pour le financement des projets technologiques. \nwww.hutek.fr\nÉléments d'évaluation de Hutek\nAccompagnement et Financement : L'entreprise Hutek indique être un expert référencé par Bpifrance, ce qui facilite l'orientation et l'obtention d'aides ou de subventions publiques dédiées aux projets d'IA en PME et ETI. \nwww.hutek.fr\nCible dédiée : Leurs interventions se concentrent sur le conseil et la transformation par l'IA adaptés aux structures de taille intermédiaire (PME/ETI), évitant ainsi les approches sur-mesure disproportionnées des grands cabinets de conseil. \nwww.hutek.fr\nMéthode terrain : Pour réussir une intégration en PME, l'approche doit lier l'identification de cas d'usage précis (gains de temps, automatisation) à la réalité opérationnelle de l'entreprise, plutôt que de proposer une technologie déconnectée des besoins. \nLe Blog du Dirigeant\nCritères de choix d'un partenaire IA\nCritères d'évaluation\tCe qu'il faut vérifier avec le partenaire\nAlignement métier\tLe partenaire comprend-il vos contraintes sectorielles ?\nAides financières\tAccompagnement sur les dispositifs (ex. Diag IA Bpifrance)\nSécurité des données\tConformité RGPD et gestion des données sensibles\nApproche graduelle\tCapacité à lancer un projet pilote simple et mesurable\nPour préciser cet avis, pouvez-vous me dire :\nQuel est le secteur d'activité de votre PME ?\nQuel est votre principal objectif avec l'IA (automatisation, service client, analyse de données) ?\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nLe Blog du Dirigeant\nIntégrer l'IA dans une PME en 2026 : guide pour les dirigeants\n11 févr. 2026 — Avant de penser technologie, pensez terrain. L'adoption de l'IA en PME réussit lorsqu'elle répond à un problème métier bien défini...\nwww.hutek.fr\nAccueil - hutek | conseils et transformation IA\nFinancez vos projets d'IA avec Bpifrance. nous accompagnons les PME et ETI dans l'obtention de financements pour leurs projets d'i...\nfrancenum.gouv.fr\nL'intelligence artificielle dans les TPE et PME : 10 réponses concrètes aux questions que se posent les dirigeants - francenum.gouv.fr\n- TPE/PME using IA: 26% (Baromètre France Num 2025). - 3 Action Levels: - L1 (Public tools): 0-25 €/mo (Mistral Vibe, ChatGPT, Cla...\nTout afficher\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESUAHrOzAVLXYfw5uHotGU6PDLpjYxbDepPNfizsYsQBzyAN3U_10zuLjw-KYY9heHR3oWXerMNKbZ55F-LZE1MAe7075IV4wtyHKm0vkRD5sq",
+        "url_finale": "https://www.hutek.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Bpifrance",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAVJ3XWg6O_BFa9WbXiRGkgd9Byi79NNaRhHsuTlyhWhGBsqzDx1x-pVmT6iomLzo3fH4ZQa5fWVivF7GCE1P1Rto6aOgUudJVXfgwG3LXz",
+        "url_finale": "https://www.bpifrance.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESdgHrOzAVgN4n6Oaiz8QYC6Tve6uOK-IQc-nyuhpVp4uxlNqHqs6iQA_Toz0JpvUyHuhQ5YoqNtX4s5qU3JvUDDvkikGOXaegWpctiG3z8_xPvF4O5XwEUBCGlXtp-2zRfWtRLQSnbHdy-AysDxiaJpvK-txLgTs",
+        "url_finale": "https://www.leblogdudirigeant.com/integrer-ia-dans-une-pme/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESvQEB6zswFW-BMEXWWbIA0gB6XXAsjMKnOy9WCN7hNIdgxDv32QOp8SQHHFjIfTMmqPGwbpVBerk30LMj-Yez_7QNLQEPe_uQfozkHuuWzu2ijvM52i_TowhbuHmMa0nA5BJPqFAoRC-2TNq0CWsWat4jNRlnV8_6ADZ0Ebo5ZpcEXCM86G1IkgvJ3L7wmVnX6gA0MDOpDfMe3And7vieSEDTs8DBTfRnfyrMtlLvOssM8TWZozQKKSL9xAK0z3o",
+        "url_finale": "https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/comprendre-et-adopter-lia/lintelligence-artificielle-6",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESlAEB6zswFfuLNTwfNwDdkZ8fb5deP__MOLMNF53QPy0LGKeIDujq4uv_2Ec0Ue3dXLT7si7Oa6RdgYNDOqvkgqQR5NzzTECxoyw8EW-yRsuTI35MSf3murEpAb5P4sR9U6xenvAVBc4vJ8U33nF8R_fuByxILrncPGl1ftepJJA1N9DnEwc371JmZTQMP9tCDsmzaQJK",
+        "url_finale": "https://www.leblogdudirigeant.com/les-meilleurs-outils-d-ia-pour-les-petites-entreprises/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "A6.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "A7",
+    "group": "A",
+    "question_exacte": "Quelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ?",
+    "horodatage_utc": "2026-10-09T14:14:04.906Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quelles+alternatives+%C3%A0+Hutek+pourrais-je+comparer+pour+un+projet+de+transformation+par+l%27IA+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfAW3LWmBiqJD08yV4nRAiQ3_FCdLpbb00p-2M7JIR6U-osnHgi_ukROvtEeLJ7uZa5w37gg8xZMlIxDSr4H2MOMqzho-4KtsK_MoAhZve1e3KyFAwfe6zyEtu8Se-RGDGwuhDjNIH0p4WQIdhCu87paoiQtTdcQqOI",
+    "duree_ms": 21487,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ?\nQuelles alternatives à Hutek pourrais-je comparer pour un projet de transformation par l'IA ?\nPour un projet de transformation par l'IA (conseil aux dirigeants, design de solutions, ingénierie GenAI et accompagnement stratégique) comparable à l'approche sur-mesure d'un cabinet comme Hutek, vous pouvez vous tourner vers des acteurs spécialisés en France (notamment ancrés en région ou nationaux) qui proposent du diagnostic, de la conception de solutions et de l'accompagnement opérationnel. \nLinkedIn\n·Sébastien Hubert\nVoici les principales alternatives à comparer sur le marché français :\nKoïno : Agence spécialisée en stratégie IA et ROI (ayant accompagné des structures comme Decathlon ou ManoMano), idéale pour structurer un plan de transformation, réaliser des diagnostics rapides et développer des solutions d'IA générative sur-mesure. \nKoïno\nMasteria : Cabinet de conseil et centre de formation basé à Lyon (proche de l'ancrage géographique d'Hutek), positionné sur l'audit stratégique, l'accompagnement opérationnel des ETI/grands groupes et le transfert de compétences. \nmaster-ia.fr\n +1\nStema Partners : Structure spécialisée dans le design de solutions GenAI, la mise en place de copilotes et l'accompagnement des entreprises et ETI dans leur intégration d'intelligences artificielles. \nKoïno\nCabinets de conseil généralistes et branches tech : Les grands acteurs du conseil (comme Wavestone, BearingPoint ou les pratiques data/IA des ESN majeures) pour des transformations à très grande échelle, bien que leur approche soit souvent moins agile et plus standardisée que celle d'un cabinet de conseil spécialisé et de niche.\nSi vous le souhaitez, précisez-moi la taille de votre structure, votre secteur d'activité ou le type de livrable attendu (stratégie pure, formation des équipes ou développement d'un prototype technique) pour affiner cette sélection.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nLinkedIn\n·\nSébastien Hubert\nSébastien Hubert - Applied AI & Transformation Leader\nFondateur. hutek humain et technologies. Conseil aux dirigeants, design de solutions, engineering GenAI et accompagnement de la tr...\nmaster-ia.fr\nÀ propos de Masteria : cabinet IA et centre de formation à Lyon\n+1 500 professionnels formés. Masteria accompagne des PME, ETI et grands groupes en France, Cabinet conseil + formation. : audit s...\nKoïno\nTOP 10 Agences IA en France (2026) : Tarifs & Exemples\nStema Partners: LLM/copilotes PME (Pomona); produits (Aircall); Prototype 15k€, sprint 8-20k€. Support Flow: Zendesk (Leboncoin); ...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESawHrOzAV24HqTd7wu-RDH-Y4NJZt-HJTKgfipiobV3lBVYhj6w2_5efbL8eMAA78wcN8IR-3U90QJjGjTpwGHfqK5aZ7vSenbQ49wl40Nznp_wD0DFf1jBwGRtAmgJT_ErnuZ5jRWXETDOms",
+        "url_finale": "https://fr.linkedin.com/in/sebastienhubert-hutek",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "Koïno",
+        "lien_original": "https://www.google.com/goto?url=CAESTwHrOzAVAppJUDrRgtzuSteHFB3psDu3Pfq12QbWRi0vEJ_IlcQCztzgJfA5_Zqk-HLtaJ0rXKsSPZJqaSGZAH8aaFQb-Qhle3dkXeWeSXE",
+        "url_finale": "https://www.koino.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESlQEB6zswFedqyz4EaHyJqD3d8A6mq8hlnp68LeuEYDu32W-L7DgB0p7b7u1oKkn6KGrjm5idWsX-59lCOLsOEqZzUg9QTi8ABaEO0rXF9WuuDaeYLecxab1HRLgKFLODSuGc4EnZ97CYEXOW_cV2LUUuq0rDAdywds3NRx_QSSbQ9xwI-Qrr6klcCQ-gjzIHv7NvQikBbw",
+        "url_finale": "https://www.koino.fr/articles/top-10-des-agences-ia-en-france-2026-tarifs-clients-exemples",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Masteria",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAVbd1NhFbSCtXLZ65lbYobpTcpJr3Bnej_Xym4H0pBPLkZxTV1BnVddNxfNuA7BqSow7Wm0VVr313BkKXf_AUxVXV5DJpXqFWJdG0ZVTfK",
+        "url_finale": "https://www.master-ia.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAEScgHrOzAVA5uU7wacdwPBaqhYjX2CivilrR17dLrrwN62dkooRG6lbNlcQ-ON1aqtjw7tz4vAQbNTmZTTIPtrN7zO-toOTOPrf3UjaWg-qhqWB4YURQkeadWX1VFgQyaN277xA5U8YTtXhcffyAedCHUVpw",
+        "url_finale": "https://www.master-ia.fr/centre-formation-ia-entreprise",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Stema Partners",
+        "lien_original": "https://www.google.com/goto?url=CAESWAHrOzAVhzmfS7r-leAqTNb0Ynq1E8rjbOYMiNiSzaF6OHUbLE0QGBE6mhNzlMUFC60Nshf_kjF6eMaLMKAmFSgtlqaUbHOIE3NL6o4IkDkjgfbHYd1t7tM",
+        "url_finale": "https://www.stemapartners.com/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "A7.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "B1",
+    "group": "B",
+    "question_exacte": "Recommande-moi cinq cabinets en France pour accompagner une PME dans sa transformation par l'intelligence artificielle.",
+    "horodatage_utc": "2026-10-09T14:14:36.725Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Recommande-moi+cinq+cabinets+en+France+pour+accompagner+une+PME+dans+sa+transformation+par+l%27intelligence+artificielle.&hl=fr&gl=fr&csuir=1&mstk=AUtExfCNCbf4WMXnHwBIkDD3mpfhiWyTbzE26G2Wb1pTHxVkJKEAm30ySQl0O1eq3SqIb2Y9_aKzQgSd0xZ7qCk9F88PD9ku5PpTNpDzczy_umt8SEFcxVtjKfP8w0B7Qd7v17QcaL2SGdYzjmfxSzRGqUcqg7ERXH77ZnY",
+    "duree_ms": 21305,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Recommande-moi cinq cabinets en France pour accompagner une PME dans sa transformation par l'intelligence artificielle.\nRecommande-moi cinq cabinets en France pour accompagner une PME dans sa transformation par l'intelligence artificielle.\nCinq cabinets et structures en France se distinguent par leur capacité à accompagner les PME dans leur intégration et leur transformation par l'intelligence artificielle, de la stratégie à la mise en œuvre technique :\nAI Partners : Cabinet français spécialisé en IA générative. Il propose une approche complète structurée autour de la stratégie (AI First Organization), de la formation des équipes (AI Academy) et du déploiement opérationnel d'agents intelligents (AI Factory), particulièrement adapté aux PME cherchant des cas d'usage rapides. \nAI Partners\nJAIKIN : Cabinet de conseil en intelligence artificielle à compétence technique intégrée. Sa particularité repose sur le fait que les consultants qui réalisent le diagnostic et la feuille de route métier sont également ceux qui développent et déploient les solutions (proof of concept, automatisation et formation des collaborateurs). \nJAIKIN\nDeloitte France (AI Advisory) : Acteur majeur du conseil, disposant d'une pratique dédiée à l'IA et d'un institut de recherche (Deloitte AI Institute France). Idéal pour les PME en croissance rapide qui nécessitent un encadrement poussé sur la gouvernance, la fiabilité des données et la sécurité de l'IA. \nDeloitte\nDevoteam : ESN et cabinet de conseil spécialisé dans la transformation technologique en Europe et en France. Il aide les PME à industrialiser l'usage du cloud et de l'intelligence artificielle au sein des processus métiers existants grâce à des partenariats solides avec les grands acteurs tech.\nWavestone : Grand cabinet de conseil en management et stratégie numérique, capable d'accompagner les PME de taille intermédiaire (ETI/PME matures) dans l'acculturation de leurs collaborateurs, l'éthique de l'IA et l'alignement de la feuille de route technologique avec la vision économique de l'entreprise.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nJAIKIN\nConsultant IA pour PME : missions, tarifs, méthode | JAIKIN\nJAIKIN est un cabinet de conseil en intelligence artificielle à compétence technique intégrée : les consultants qui cadrent votre ...\nAI Partners\nTop 10 cabinets conseil IA générative France 2026 - AI Partners\nAI Partners est le cabinet de conseil français spécialisé en IA générative. AI Partners a formé plus de 4 000 professionnels, acco...\nDeloitte\nConseil en Intelligence Artificielle (IA) | Deloitte France\nDeloitte France AI advisory: strategy to industrialization, data reliability, security, and governance. AI projects in production ...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "AI Partners",
+        "lien_original": "https://www.google.com/goto?url=CAESkAEB6zswFRzTh1Thl3g4IUsyNuAKffxHa5ylTiZ0T5fekVjK9Y5Hs0TyWsRpVDfK5HVxVr1h2zojLKWBviKkwZdUkm-bwxDI6fmwozcIknGAA3PHvarPXNoT6aDMqRyP-XY7Q2haNDH2pDxHusvu8XIwNAj7-VwWpcLGRw4GAUONTOupPRVxpQRuqMACzQhJEoM",
+        "url_finale": "https://weareaipartners.com/fr/blog/top-10-generative-ai-consulting-firms-france-2026",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "JAIKIN",
+        "lien_original": "https://www.google.com/goto?url=CAESXgHrOzAV4GoYJ0qV5Q7nLruuk7DK4k2vnE3zfvyes6IENMTWxrZmJHwLpzZayx9xuPTcY0pC3_xDQa4aw5dLukPvQLErbTIlHp-ATJDcA2j97CiYvhfacTpFio_Wf60",
+        "url_finale": "https://www.jaikin.eu/consultant-ia",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Deloitte France (AI Advisory)",
+        "lien_original": "https://www.google.com/goto?url=CAESowEB6zswFaTaheVbQ9VEl3plbkT07dCm9Gbd76zOwSl0m1yruTPG8C80HpFX7V2OEXbpS4ohQ07NMNo8iFM2Gqds4QSwrVaJuOSuH5jGZHTc_ZkWy26tCb0Haf-fPkwNkS69wFoJh4BEBhy45E0-9AbKKQ12AIQ513hSZ9nvSA-sU-6l3T8lZ93GX7coC3w1uXCGH685yEyOtDclUy9s3SqTNL3S",
+        "url_finale": "https://www.deloitte.com/fr/fr/services/consulting/services/conseil-en-intelligence-artificielle-ia.html",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Devoteam",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAVsraPjqcNYL60EdiRqSnnGGN6J7pI6NXf1hesMUabwBi0AdhLzf5D8X-3TwFXzijv53Tm1Tku7t3QXmxd2M5Fnfiju4MEoql4OANgRRn2",
+        "url_finale": "https://www.devoteam.com/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Wavestone",
+        "lien_original": "https://www.google.com/goto?url=CAESVAHrOzAVJACFWBX-cPr9HKRrLS_f4XX_U1cgnjo_TdI-03cnAa1sqWz12TjXsnrHM-7Kqxf4I5PxlFRTvsfoJ-U7yWFSWiJ8IuwDwMUC_Em3yDv8rQ",
+        "url_finale": "https://www.wavestone.com/en/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "B1.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "B2",
+    "group": "B",
+    "question_exacte": "Recommande-moi cinq entreprises à Lyon ou en région lyonnaise pour accompagner une PME dans l'adoption de l'IA.",
+    "horodatage_utc": "2026-10-09T14:15:07.961Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Recommande-moi+cinq+entreprises+%C3%A0+Lyon+ou+en+r%C3%A9gion+lyonnaise+pour+accompagner+une+PME+dans+l%27adoption+de+l%27IA.&hl=fr&gl=fr&csuir=1&mstk=AUtExfBqZyt0FEIGxCwTr-PYo0WSNnR13WXrLvGUUs6PQOTowCe3S4k9WX1DfxZUyi7sTQtU2if5KbMGDVOTlcebBLozzCEFd79rJgFaVOHYdxiqr2m-xV_cpNeGulIkzWKwiLrthpPwlaozy4pYFoeGV2gMY-l6hagTOh0",
+    "duree_ms": 16280,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Recommande-moi cinq entreprises à Lyon ou en région lyonnaise pour accompagner une PME dans l'adoption de l'IA.\nRecommande-moi cinq entreprises à Lyon ou en région lyonnaise pour accompagner une PME dans l'adoption de l'IA.\nCinq entreprises et agences basées à Lyon et spécialisées dans l'accompagnement des PME pour l'intégration de l'intelligence artificielle sont présentées ci-dessous avec leurs expertises clés.\nsocIAty : Cabinet de conseil et d'intégration basé à Lyon (rue de Bourgogne) proposant des audits, de la formation (certifiée Qualiopi), du déploiement d'IA générative/prédictive et de la gouvernance des données. \nsociaty.io\nMasteria : Agence lyonnaise (située rue d'Algérie) spécialisée dans le cadrage stratégique, la création d'agents IA sur mesure et l'automatisation connectée aux logiciels internes des PME. \nmaster-ia.fr\nSolanys : Agence IA à Lyon (avenue Jean Jaurès) particulièrement orientée vers les PME industrielles, proposant l'intégration d'agents intelligents, le traitement documentaire et la liaison avec les ERP/CRM. \nSolanys\nUpToNum : Structure d'accompagnement intervenant auprès des PME et ETI pour réaliser des audits, définir la feuille de route stratégique et mettre en œuvre des cas d'usage concrets en IA générative et automatisation. \nUpToNum\nAPE Conseil : Organisme de formation certifié Qualiopi à Lyon proposant des sessions pratiques et finançables par les OPCO pour initier les équipes dirigeantes et opérationnelles aux outils d'IA générative et de bureautique augmentée. \nAPE Conseil\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nSolanys\nAgence IA Lyon — PME et entreprises industrielles - Solanys\nSolanys, agence IA à Lyon spécialisée dans les PME industrielles. Agents IA, automatisation des processus, traitement documentaire...\nAPE Conseil\nFormation IA pour PME à Lyon, finançable OPCO - APE Conseil\nDeux formations IA d'une journée à Lyon : Copilot 365 et IA générative. Organisme certifié Qualiopi, finançable OPCO. À partir de ...\nsociaty.io\nAgence IA Lyon | Sociaty\nsocIAty (Lyon, 33 rue de Bourgogne) - Activity: AI consulting, audit, training, deployment (generative/predictive AI) >1000 profes...\nTout afficher\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "socIAty",
+        "lien_original": "https://www.google.com/goto?url=CAESXQHrOzAV6qJSv-lN18SW9ihuNQxVVek0DuSn-4JtrTZl5dK1csEcX6x4V0VAUqfiWc3i3mn2SwqG4V9gN0UkU_l9UFpMP9O4O8rnMES8MNbf9XQcA_94UvIrMdcxvA",
+        "url_finale": "https://sociaty.io/agence-ia-lyon/",
+        "finale_obtenue": false,
+        "note": "timeout resolution"
+      },
+      {
+        "titre": "Masteria",
+        "lien_original": "https://www.google.com/goto?url=CAESYgHrOzAVPvkSAa6Ncn22PSF9aLks1D-aS2iVJK6WuLxfWg_kdl5KM3PnoyY_3NpXleKbV-mGZgHPeZy1YndaYM3Vz_CBjfaYTxFzUaQV2-YC8IJdc7XFX8XV1x4iyoiu6Sqn",
+        "url_finale": "https://www.master-ia.fr/agence-ia-lyon",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Solanys",
+        "lien_original": "https://www.google.com/goto?url=CAESYAHrOzAVJ_VASHt29GW18Tu82GmYk0rRqNU1PydWO-XRhfZVSXVs24nhSiCeZ0QOtrhEKKlHCFLBzUgA7ZXJSUczqjTPZxtT4K7f5yFAxA9apXIZCRiCAUjKThuIONl-Rg",
+        "url_finale": "https://solanys.ai/fr/agence-ia/lyon/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "UpToNum",
+        "lien_original": "https://www.google.com/goto?url=CAESaAHrOzAVDE3m_y5nlwqXY2DokfxFO_FkJZiWIa6S5Cg38VPrxU8y2uHZjL9SxKnxxv2W587UsSVcMRqfQVrmLTaLvjMbeA0RXUo_MZ8qaPzvaZFubcR8k7dFN1czeuUV_LlvT4pXjOVd",
+        "url_finale": "https://uptonum.fr/intelligence-artificielle/",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "APE Conseil",
+        "lien_original": "https://www.google.com/goto?url=CAESaQHrOzAVOGG8OsTIr2Bsxp0nNR3WYtvRkyGCMGtFvHA3bPJSe4kXaLq9WQgdQsVpenaMvXXq-ejcnoEqR5GnxZSSkzH9teHX7q0gwUCmS9h1KagNRfiVgfrVRdE4y7pnJKV_WAk7BHjAcg",
+        "url_finale": "https://www.ape-conseil.com/formation-ia-lyon/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "B2.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "B3",
+    "group": "B",
+    "question_exacte": "Quels prestataires en France peuvent aider une ETI à définir sa stratégie IA puis développer un prototype ? Propose cinq noms.",
+    "horodatage_utc": "2026-10-09T14:15:44.969Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quels+prestataires+en+France+peuvent+aider+une+ETI+%C3%A0+d%C3%A9finir+sa+strat%C3%A9gie+IA+puis+d%C3%A9velopper+un+prototype+%3F+Propose+cinq+noms.&hl=fr&gl=fr&csuir=1&mstk=AUtExfCQ9mbt90N52YEtOjpcBtDYQ3O7iCwDOWwRJ87cFK7TMhfqVzS8lRyjDF4Gk-q0WxU0H6uxBtQ55IfxvoD7nmei_b_6sbf5DhEnfcGylZw5oqzHOIhdhQxVBWGpI6KCoU7fxtE97Uuovi4uFFcMTzfS71xr4JBim9I",
+    "duree_ms": 21327,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quels prestataires en France peuvent aider une ETI à définir sa stratégie IA puis développer un prototype ? Propose cinq noms.\nQuels prestataires en France peuvent aider une ETI à définir sa stratégie IA puis développer un prototype ? Propose cinq noms.\nLes prestataires en France capables d'accompagner une ETI de la stratégie IA jusqu'au prototypage et au déploiement opérationnel incluent des cabinets de conseil spécialisés et des agences expertes en data. \nAVISIA\n +1\nVoici cinq prestataires reconnus en France pour cet accompagnement de bout en bout :\nStema Partners : Cabinet de conseil et agence opérationnelle spécialisé dans l’accompagnement des PME et ETI. Accrédité par Bpifrance (Diag Data IA), il propose une approche pragmatique en quelques semaines pour structurer la feuille de route, former les équipes et prototyper des solutions à fort retour sur investissement (automatisations, copilotes métiers). \nfrancenum.gouv.fr\nAvisia : Cabinet de conseil expert en Data, IA et IA Agentique comptant plus de 300 consultants avec des agences régionales (Paris, Lille, Nantes, Bordeaux, Lyon). Partenaire majeur de plateformes comme Dataiku, Avisia intervient de la stratégie de gouvernance des données jusqu’au développement de prototypes de science des données et d'IA générative. \nAVISIA\nQuantmetry : Cabinet de conseil en innovation analytique et intelligence artificielle (filiale du groupe Capgemini). Recommandé pour les structures en phase de passage à l'échelle, il combine des consultants en stratégie d'entreprise et des ingénieurs en IA pour concevoir des prototypes robustes (Proof of Concept) alignés avec les enjeux industriels ou de services des ETI.\nDevoteam : Acteur européen du conseil en stratégie numérique et cloud, disposant d'une practice forte en intelligence artificielle. Devoteam aide les ETI à identifier les cas d’usage à valeur ajoutée, à auditer leur maturité technologique et à bâtir rapidement des prototypes sur les environnements cloud du marché (AWS, Google Cloud, Microsoft Azure).\nSopra Steria : Grande ESN française disposant de structures d'accompagnement dédiées aux ETI et mid-markets. Sopra Steria propose des offres d'accélération (Labs et ateliers d'idéation) pour cadrer la vision stratégique de l'IA et industrialiser rapidement un premier prototype fonctionnel.\nSi vous le souhaitez, précisez-moi :\nLe secteur d'activité de votre ETI\nVotre niveau de maturité actuel en matière de données (centralisées, en silos, cloud ou on-premise)\nJe pourrai vous orienter vers le type d'approche le plus adapté à votre contexte.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nAVISIA\nContactez AVISIA, le cabinet expert en Data, IA & Agentique\nAVISIA: Cabinet expert Data, IA & Agentique … 5 agences: Paris, Lille, Nantes, Bordeaux, Lyon. Expertises: Data Strategy, Data Sci...\nfrancenum.gouv.fr\nSTEMA PARTNERS - francenum.gouv.fr\n21 sept. 2026 — Stema Partners est un cabinet de conseil et de formation en intelligence artificielle dédié aux PME et ETI (50 à 500 collaborateur...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESXwHrOzAVJmeW-BeAitJtmkdQ3xqSM5peOEj0Yb6bKmJBsHwVK44BhbD9J0nNHeTau7GDNrNRcc6D88LFzlA194dc-jV5Rx9ZElWH5RHRM7zaLKxHkIxwjPsiXracUYul",
+        "url_finale": "https://www.avisia.fr/nous-contacter",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Stema Partners",
+        "lien_original": "https://www.google.com/goto?url=CAESWQHrOzAVqr9O1FT3b7UkFNqUen7x_uUp-v3BZs3nz8GWxMaSMTSIDAhmpciAxnR3cBDUPLT6FzlWU9su0IgCeT8EYTNRtO1Wxsq7nx9YaRP-XSu5n3Wlxq4k",
+        "url_finale": "https://www.stemapartners.com/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAEScwHrOzAVGdqR9McJCxjLmB5aFYQb-WkuNN_R-vlF0NL2pIy-kKnhI5aZQ9FzziQDZB4syGyK9_OvxuKIMx_Y07l4UpZ-LYynwtW_-pSLyZTvozQvpchFgQGNBzbQeTI4sn5KlHh0i2EuCdk7opdMbZK3AZY",
+        "url_finale": "https://www.francenum.gouv.fr/activateurs/stema-partners",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Avisia",
+        "lien_original": "https://www.google.com/goto?url=CAESUQHrOzAVbsW8agZ6QzFqf5E0Bhvxe-odjPH3FhF_8yiASwXhgicakEb0J-JhzTxB_7f8-hzMlFurf5SwQYVh-8sdLTSOGvhUNVzuot6R5YU43A",
+        "url_finale": "https://www.avisia.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Quantmetry",
+        "lien_original": "https://www.google.com/goto?url=CAESVgHrOzAVvaZVJPnQl405qsAkpp5CMPrYSavIloph5txIPTDOH_gEJoGZz_C82csOViovd0Am78xQgGzTQA9cnCqHfUbH6nzKBBcLgYCJjcPDTIjdwXvC",
+        "url_finale": "https://www.capgemini.com/fr-fr//",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Devoteam",
+        "lien_original": "https://www.google.com/goto?url=CAESVAHrOzAVHk-_FkWvNItFW_31a3xGFG7Kp_X9NIv1oulTaPDKWiN0l6RLTWVFeRyY6Ka5zoNyeE6Omjw0gAYGARy9ZLQAB274qcAjUdVrrLbg2600OA",
+        "url_finale": "https://www.devoteam.com/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Sopra Steria",
+        "lien_original": "https://www.google.com/goto?url=CAESVwHrOzAVSDGejLfG_kdEi1uHRmSz0VPzqqGxYHXfBv2b4qecsvhXQZndot31mSjIiLdTVwnDd_dexiYbZAuKxVtU6yFyqS644g8KmhJ5KG5_8IsEdbNSiQ",
+        "url_finale": "https://www.soprasteria.com/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "B3.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "B4",
+    "group": "B",
+    "question_exacte": "Je dirige une PME industrielle en Auvergne-Rhône-Alpes. Quels partenaires pourraient m'aider à identifier et déployer des usages concrets de l'IA ?",
+    "horodatage_utc": "2026-10-09T14:16:16.981Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Je+dirige+une+PME+industrielle+en+Auvergne-Rh%C3%B4ne-Alpes.+Quels+partenaires+pourraient+m%27aider+%C3%A0+identifier+et+d%C3%A9ployer+des+usages+concrets+de+l%27IA+%3F&hl=fr&gl=fr&csuir=1&mstk=AUtExfBxA4czXr1CVwv7zXmcb2ja4ngiMpFnsuAMJ-zhFlPDCteqqXuFN1jH01CaHKzhl3tBSN0B2DcUb_-7oKTq4x7gdJ-nYtAzJgpACX-r40l19XeN4hNeONA40H00h3x7rGvzl0HH1qw6TwlPfq7yw70sNDqyvyEz_Tc",
+    "duree_ms": 21278,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Je dirige une PME industrielle en Auvergne-Rhône-Alpes. Quels partenaires pourraient m'aider à identifier et déployer des usages concrets de l'IA ?\nJe dirige une PME industrielle en Auvergne-Rhône-Alpes. Quels partenaires pourraient m'aider à identifier et déployer des usages concrets de l'IA ?\nPour intégrer l'intelligence artificielle dans votre PME industrielle, vous pouvez vous appuyer sur un écosystème régional riche en Auvergne-Rhône-Alpes, combinant agences publiques, pôles de compétitivité et programmes de conseil subventionnés.\nActeurs institutionnels et accompagnement régional\nAuvergne-Rhône-Alpes Entreprises : L'agence régionale propose des dispositifs d'accompagnement à l'industrie du futur et met à disposition une carte dynamique pour identifier les acteurs experts en IA. Vous pouvez mobiliser le conseil Industrie du Futur cofinancé par la Région (jusqu'à 50% des coûts pour des expertises ou preuves de concept). \nwww.auvergnerhonealpes-entreprises.fr\n +1\nLe Campus Région du Numérique : Situé à Charbonnières-les-Bains, ce lieu totem de la Région centralise des formations, des démonstrateurs et des rencontres avec des prestataires technologiques spécialisés dans la transformation digitale et l'IA. \nplateforme-iet.auvergnerhonealpes-entreprises.fr\nPôles de compétitivité et clusters technologiques\nMinalogic : Le pôle de compétitivité numérique de la région anime un écosystème puissant en matière de technologies du numérique et d'intelligence artificielle, idéal pour connecter votre industrie avec des éditeurs de logiciels ou des intégrateurs IA. \nplateforme-iet.auvergnerhonealpes-entreprises.fr\nDigital League : Le premier cluster des entreprises du numérique en Auvergne-Rhône-Alpes, qui répertorie et fédère un grand nombre de prestataires et d'experts techniques locaux. \nplateforme-iet.auvergnerhonealpes-entreprises.fr\nCoboteam : Le cluster dédié à la robotique et à la cobotique en région, très pertinent si vos cas d'usage industriels visent à croiser l'IA avec l'automatisation d'atelier ou la vision par ordinateur. \nplateforme-iet.auvergnerhonealpes-entreprises.fr\nOutils et diagnostics nationaux\nBpifrance : Propose l'Autodiag IA (un outil d'évaluation rapide en 15 minutes) ainsi que des dispositifs de financement pour structurer un projet d'investissement numérique ou industriel intégrant des briques d'intelligence artificielle.\nFrance Num : Initiative gouvernementale pour guider les TPE/PME dans l'adoption raisonnée de l'IA (niveaux d'usage, sécurisation des données, choix des outils). \nfrancenum.gouv.fr\nSi vous le souhaitez, précisez-moi :\nLe secteur d'activité exact de votre PME (usinage, agroalimentaire, plasturgie, etc.)\nVotre objectif principal (maintenance prédictive, contrôle qualité par vision, optimisation de la chaîne logistique)\nJe pourrai vous orienter vers le type de cas d'usage le plus rapidement rentable pour votre atelier.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nplateforme-iet.auvergnerhonealpes-entreprises.fr\nPanorama des acteurs de l'Intelligence Artificielle\nCoboteam Auvergne-Rhône-Alpes, les services déconcentrés de l'Etat en Auvergne-Rhône-Alpes (direction régionale de l'économie, de ...\nfrancenum.gouv.fr\nL'intelligence artificielle dans les TPE et PME : 10 réponses concrètes aux questions que se posent les dirigeants - francenum.gouv.fr\n18 mai 2026 — TPE/PME using IA: 26% Data Security: 52% concerned. Anonymize data for public tools. - Diagnostics: Autodiag IA Bpifrance (15 min)\nwww.auvergnerhonealpes-entreprises.fr\nIndustrie du futur : faites-vous accompagner\nFinancement: Région finance 50% des coûts (conseil, preuves de concept, expertises, études); plafond 32 000 €/entreprise (subventi...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "Auvergne-Rhône-Alpes Entreprises",
+        "lien_original": "https://www.google.com/goto?url=CAESeQHrOzAVH0Ji4X6rjJ8w6tjJ-TrGq9kQ0Ac6CLZlbrHFFMc4yKE3bUT_FfifCKbtQQZl-Ql674yuRP3m42WwnnY-fFhsXJ61k5Iwkb4IubrI_jwc9_cI527Sf3vYsiaIP_Onc59p5UIoHKB-mv0KshnnNc06JGmx76w",
+        "url_finale": "https://www.auvergnerhonealpes-entreprises.fr/en/industriedufutur",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESzgEB6zswFeHHHNpZ5Itp9N_ydKQB5haWD5RGPnet7WIH08zn6rT-CTKWouNcOCRjxcuo6Dlez_6uabz29Rp9jxBbbRVYZcPbae-fPq_rjD0r5nmy1EqEICmM6LnmEM73CjBwgaZFkxD4RWW8SSue-ki3pPpCCmlEzWxd6N_Sqf8IkluQ6aMq7XT3LuHTYGgQW8k1qKFqnBA74NF4bTeS6OGp2R9Rn6iWqpqsrP3zESqeQ-qcqyi9o07MzHoVlICN6xm-AWQZFXkDpj2C_IufNw",
+        "url_finale": "https://plateforme-iet.auvergnerhonealpes-entreprises.fr/informations-economiques/publications/panorama-des-acteurs-de-l-intelligence-artificielle",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Minalogic",
+        "lien_original": "https://www.google.com/goto?url=CAESUQHrOzAV9E6P2ObSbVRs2l97JVYgFvm98apiQpHhbl2STeBzQczXXhTwqMx-94wOQXHLnkdSjuA6edC0py6SYygKgyvhr2uf8FUbc7JE62ZzPg",
+        "url_finale": "https://www.minalogic.com/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Bpifrance",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAVVj6JgMvwvKNwoJVPlXqykhvmgXHkrSYPKIcwakoTKFB5SdNe-IBKfErEclxjPMfhDywOUS99LPqroHtYVoR7LLzeKFgAtCSavrq2xkfB",
+        "url_finale": "https://www.bpifrance.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "France Num",
+        "lien_original": "https://www.google.com/goto?url=CAESWAHrOzAVlxwTFLLXCVkhaoUPwYFeNy3b3YRQ5Omqg_B9geLjXfBOGAojaAIgBTM5sBBTPAsMt9kbu-voVnCiHEuIYAMmji309GpUXMFQON7hYGNC4RSBb6g",
+        "url_finale": "https://www.francenum.gouv.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESvQEB6zswFXLg0fs62uMwxz-9b8yHobDzIsKGGS_9GAjipJEGBpj-FOonz4Ah7gE_I84I57A418yAxjagYUf9N6EgRZoNaOe_-JXpZ-W_vS37OOM95oxeBQS8oqCWduZuZzUgQ9mGZA8m_Mzf0YH6VYrh2biS-KZQ9zC-YWpFqjFQv9ni2yNGwgPN6100wTwjjT7BxPQFcZIWUUEIoe8DAEGV9v5D6MgPMFmkzVfWZTXTtkyZKVBdJKsRXnQ5CVw",
+        "url_finale": "https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/comprendre-et-adopter-lia/lintelligence-artificielle-6",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "B4.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "B5",
+    "group": "B",
+    "question_exacte": "Quelles entreprises françaises peuvent développer des agents IA pour automatiser le traitement de documents administratifs ? Propose cinq prestataires.",
+    "horodatage_utc": "2026-10-09T14:16:49.040Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quelles+entreprises+fran%C3%A7aises+peuvent+d%C3%A9velopper+des+agents+IA+pour+automatiser+le+traitement+de+documents+administratifs+%3F+Propose+cinq+prestataires.&hl=fr&gl=fr&csuir=1&mstk=AUtExfAtGNYQHD_qxBV1MPri2x2G9Hzu7BGmrdjGxoy_xse-vyq22BdW6zpIx7NPLea8t9ZMMwBbBPLYfWecq_3kb2Wj2Ncnr8-isSuNZlZZAgKo6sy2dXiqTD2EgyupJ8gki8r2HvPIGukNXUQolGgvssT2fehP_0HZlsA",
+    "duree_ms": 21336,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quelles entreprises françaises peuvent développer des agents IA pour automatiser le traitement de documents administratifs ? Propose cinq prestataires.\nQuelles entreprises françaises peuvent développer des agents IA pour automatiser le traitement de documents administratifs ? Propose cinq prestataires.\nPlusieurs entreprises françaises se spécialisent dans la création d'agents intelligents et de solutions d'extraction documentaire pour automatiser les flux administratifs, en combinant souveraineté des données et conformité RGPD. \nNext Decision\n +2\nVoici cinq prestataires français reconnus pour concevoir ou intégrer ce type d'agents IA :\nLightOn : LightOn développe des solutions d'IA souveraine et propose notamment des technologies de pointe en reconnaissance intelligente de documents et extraction multimodale (comme sa gamme LightOnOCR-3). Leurs agents et briques logicielles permettent de traiter les données non structurées, les tableaux financiers ou les formulaires administratifs complexes sans compromettre la confidentialité. \nYouTube\n·OUTSCALE, Dassault Systèmes\n +1\nDust : Dust est une plateforme française d'agents IA agentiques qui permet aux entreprises de connecter facilement des modèles de langage de pointe à leurs bases documentaires internes et outils de productivité (Slack, Notion, Google Drive). Elle excelle dans l'automatisation des flux documentaires transverses (RH, support, dossiers administratifs) avec un haut niveau de sécurité en environnement européen. \nwww.blogdumoderateur.com\n +1\nMistral AI : Bien que positionné d'abord comme créateur de modèles de langue souverains de classe mondiale, Mistral AI propose à travers ses offres entreprises (comme ses outils d'agents et interfaces adaptées) la base technologique idéale pour bâtir des agents d'analyse et de synthèse de documents administratifs massifs. Leurs modèles multilingues comprennent parfaitement le jargon juridique et administratif français. \nfrancenum.gouv.fr\n +1\nCraft AI : Craft AI conçoit des solutions d'IA opérationnelle et d'agents sur mesure pour automatiser les processus métiers. L'entreprise aide les grandes organisations à intégrer des briques d'IA explicables et industrialisables directement au cœur de leurs logiciels de gestion et de traitement des flux documentaires. \nKoïno\nKoïno : Koïno se positionne comme un intégrateur expert de premier plan en France pour auditer, concevoir et mettre en production des agents IA adaptés aux systèmes d'information des entreprises, orchestrant les meilleures plateformes d'agents pour le traitement automatisé des tâches répétitives. \nKoïno\nSi vous le souhaitez, précisez-moi :\nLe type précis de documents administratifs (factures, dossiers de candidature, contrats, formulaires publics)\nVos exigences en matière d'hébergement des données (Cloud souverain, sur site, ou agnostique)\nJe pourrai vous orienter vers l'approche la plus adaptée à votre architecture informatique.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nfrancenum.gouv.fr\nAssistant IA : guide du débutant pour automatiser les tâches au sein de votre TPE PME - francenum.gouv.fr\nIA générative 10%, chatbots 5%, automatisation 3%. Solutions recommandées: Le Chat (Mistral AI), Microsoft Copilot, LightOn.ai, Cl...\nKoïno\nMeilleurs agents IA en France en 2026 : top 10 - Koïno\n4 sept. 2026 — En 2026, les meilleures plateformes d'agents IA disponibles en France sont Mistral AI (Vibe Enterprise), Dust, Microsoft Copilot S...\nwww.blogdumoderateur.com\nL’histoire de Dust, pépite française de l’IA, racontée par son fondateur\nAI assistant creator connected to enterprise tools (Slack, Notion, GitHub) using top models...\nTout afficher\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESfgHrOzAV3qaCRp85vwH5FDAKpaoXZrifL0h9QncGouRb5aGruhAl-T_ktJBnxAEg8U5QpOhwAjy0ZuMLDzFnS4cKezJMzAlyiegpaPLc9YzuCXFoGGE0diVmxFp63RVgdAJXh9LiakdBacD-Ihwl0XhtZlwajGgsrM3OaeVUoQ",
+        "url_finale": "https://www.next-decision.fr/solutions/data-ai/data-science-ai/dust",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "LightOn",
+        "lien_original": "https://www.google.com/goto?url=CAESUQHrOzAVXAXG228MMzNx5YBOiqKRpkJHrptNZ9kwo8bt_215qa_gsWd23w0n1ebg-NnLNqXXOo9HYIaDB3R57zjzjrrjN9lQZ_5r9UvVng2zeA",
+        "url_finale": "https://www.lighton.ai/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "LightOnOCR-3",
+        "lien_original": "https://www.google.com/goto?url=CAESwgEB6zswFc1KBEplSBZtmn-xxRQzt8O39SYjawd0t7cbZYg-98MXhx5cvclVby_o_eqhFrnN3yT21lFUYSPnuq_z92VjrsouNj57LyM1Hl5vWuMbyGFNNhEpsIUp5vnvUndwyS9EcO41VtY_f34O_w7PSozt2fzXoOtjOl3YlAOpOfOdxoWnyYIbqYPDGI-zL6okicUL8Inodu2oA2-S1_SYqZ0p4lZJI_PqEkP_wosu5BeGKdA6yCIWTh246-8WvotKjQ",
+        "url_finale": "https://www.webdisclosure.com/article/lighton-etr-lighton-presente-lightonocr-3-pour-une-intelligence-documentaire-avancee-xQpdmiq2rVB",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESawHrOzAVTiBpUpSSCQfGOm_17jhcP0L8ed42nFpFjL9Ntp3MGqHmofZ4UztJZZjBeXJmKKzLrgKgT6TUQ8UFOHWa-o5gkkCMi4PrX-aeWFTUlLWr6nL25Tah_TRRKKOpdO2Gj63VxlR4P7Ic",
+        "url_finale": "https://www.youtube.com/watch?v=QwdZywkS3fQ&t=28",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Dust",
+        "lien_original": "https://www.google.com/goto?url=CAESSgHrOzAVR4vcGjax0bSf3eh9gmuNpCefo34Ny-lsgbL9f3YK6Jr6wXPTAJgEWKGfe0S9Ljy0TW3f6VDRCnI4_l-Cxpr8nkOv9Fwn",
+        "url_finale": "https://dust.tt/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESlQEB6zswFV2djHYs9GM5t3Z0jntwcVqwB1FAhPkIlZFltB5FR7eFp0kQex-nKNdOM5szgqB6bRXtlDwXZ-XeeuomXi--NoOJY6QrEfQygVW4FquI_Q2v3hZME95KPjuauPq_JGRAurxctJ4XTE1Nw2Joclzj2qgoapiE58OqYxK2eB8A5OpP4UusHbHCUTjjsNE41IIe3A",
+        "url_finale": "https://www.blogdumoderateur.com/histoire-dust-pepite-francaise-ia-racontee-par-fondateur/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Mistral AI",
+        "lien_original": "https://www.google.com/goto?url=CAESTQHrOzAVFs_NFaWNsY_Ww8f5L3F9Q4sEl_cJCVSzwbjut5UdoP9oX-Y6AcpCnkeiPws_BPOmA4YFVN4usAipGuWS-iRlKhpbaCLuBRuY",
+        "url_finale": "https://mistral.ai/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAEStAEB6zswFdIOtdIiOZiyMbnSTIPqzJt8TW6E_t4sIUlKsisDfkDpu_u2ky84dKH3Uhw52NHjsgrK6IGa8yQA2DZ4ntLaKqYwunzT71xHRcrtO1BJI84FVgI7v04JvNW9rj7oV8lLHUsOCt2131jvAhk6srdMt1xD3TKkRPYFQsU8H1PwW-1tGq4-RruTgL9GzqOYwO2870p6pKdWTwSy47SRkf9jsEVyyrGzCavaMAwct9GLCFA",
+        "url_finale": "https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/agents-conversationnels-et-assistants-virtuels",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Craft AI",
+        "lien_original": "https://www.google.com/goto?url=CAESSwHrOzAVFAWTLo5uYw4aC3rm5GENu6ES1FNxMU4R1zTiXN3QxEsD9KkT0HD3AeqFEd0qt1yeMrYgLUcOnlsC3tq4isfYX_uTQJrymA",
+        "url_finale": "https://www.craft.ai/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESeAHrOzAVp6_a0QsXhEmnyyPPAhdFlySdGZqvWRTnB6T3DgVEL6GGFfH6QfUDruQNETK_M799w7_fAe_raliNOTC2XRMiDA9SEZmaJOg8ac6iG-fDx-JGJWgELxjx1QKBeDIVKDN6xOr76b2EEpQg_aUsVSB16jYghw",
+        "url_finale": "https://www.koino.fr/articles/meilleurs-agents-ia-france-2026",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Koïno",
+        "lien_original": "https://www.google.com/goto?url=CAESTwHrOzAV0VwDqP5GOdGksEwOJOqJdWWjl4taGRqzKtGV2Rr1MvqbLY0sN0x2JgnL7lxDkSQKdk2qPovOlhOOurkUUx1kJNSOkkws4GKhkEc",
+        "url_finale": "https://www.koino.fr/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "B5.png",
+    "status": "ok_complete"
+  },
+  {
+    "question_id": "B6",
+    "group": "B",
+    "question_exacte": "Quels cabinets peuvent accompagner à la fois les dirigeants et les équipes dans une transformation par l'IA ? Recommande cinq entreprises.",
+    "horodatage_utc": "2026-10-09T14:17:21.996Z",
+    "conditions": {
+      "langue": "hl=fr, gl=fr",
+      "compte": "non verifiable (session navigateur partagee)",
+      "localisation": "non verifiable (supposee FR via hl/gl)",
+      "navigateur": "chrome distant via selenium"
+    },
+    "tentative": 1,
+    "page_url": "https://www.google.com/search?udm=50&q=Quels+cabinets+peuvent+accompagner+%C3%A0+la+fois+les+dirigeants+et+les+%C3%A9quipes+dans+une+transformation+par+l%27IA+%3F+Recommande+cinq+entreprises.&hl=fr&gl=fr&csuir=1&mstk=AUtExfAVOS7dJZ6hozERdh2nxUf7JdLI1TklfaoOSQ-9PuUnOCxC1SXCczQvRqNA5hueqQJ2cyWUEBlrrBQsRp5QUOI0_kZOs4ZDxnZj8073xe2AhBT0C6oEud69qsV4oeMPrLnfwpZD1XLkRwYa1eq1VXw9G_hs9Xw6WWo",
+    "duree_ms": 21233,
+    "mode_ia_verifie": true,
+    "reponse_texte": "Passer directement au contenu principal\nAide sur l'accessibilité\nMode IA\nTous\nImages\nVidéos\nActualités\nPlus\nConnexion\nConversation en Mode IA : Quels cabinets peuvent accompagner à la fois les dirigeants et les équipes dans une transformation par l'IA ? Recommande cinq entreprises.\nQuels cabinets peuvent accompagner à la fois les dirigeants et les équipes dans une transformation par l'IA ? Recommande cinq entreprises.\nLes cabinets qui accompagnent à la fois les dirigeants (vision stratégique et gouvernance) et les équipes opérationnelles (montée en compétences et réorganisation des processus) dans une transformation par l'IA combinent expertise en management, conduite du changement et maîtrise technique.\nUne transformation par l'intelligence artificielle réussie ne se limite pas à l'implémentation d'outils ; elle exige une refonte des rôles, une acculturation des collaborateurs et un pilotage par la direction. \nmaster-ia.fr\nVoici cinq entreprises et cabinets reconnus pour intervenir sur ce double niveau :\nWavestone : Cabinet de conseil en management de premier plan, il dispose d'une pratique dédiée à la transformation IA. Il intervient auprès des comités de direction pour structurer la gouvernance et la stratégie tout en déployant des cas d'usage concrets et des programmes d'acculturation auprès des équipes métiers. \nAI Partners\nBoston Consulting Group (BCG) : Via sa division BCG X, le cabinet associe le conseil stratégique pour les dirigeants à la construction de solutions d'IA sur mesure. Leur approche intègre systématiquement le volet humain et la transformation des processus pour embarquer l'ensemble des collaborateurs.\nMcKinsey & Company : Grâce à McKinsey QuantumBlack, le cabinet aide les dirigeants à définir une vision à grande échelle de l'IA et déploie des programmes de formation et de réorganisation opérationnelle pour que les équipes adoptent durablement ces nouvelles méthodes de travail.\nMasteria : Cabinet spécialisé spécifiquement dans la transformation par l'IA, il opère à la fois sur le cap stratégique fixé par la direction et sur l'accompagnement de terrain dans la durée pour redéfinir les rôles et les processus des équipes. \nmaster-ia.fr\nSopra Steria : Acteur majeur du conseil et des services numériques, il propose un accompagnement global allant du conseil stratégique et éthique pour les dirigeants jusqu'à l'intégration technique et la conduite du changement auprès des équipes opérationnelles.\nSi vous le souhaitez, précisez-moi :\nLe secteur d'activité de votre organisation\nLa taille de l'entreprise\nVotre objectif principal immédiat (sensibilisation, refonte des processus, stratégie)\nJe pourrai vous orienter vers l'approche la mieux adaptée à votre contexte.\nLes réponses de l'IA peuvent contenir des erreurs. En savoir plus\nmaster-ia.fr\nConseil en transformation IA : organisation, processus, rôles\nLe conseil en transformation IA accompagne une entreprise qui réorganise ・ processus reconçus, rôles redéfinis, programme piloté ・...\nAI Partners\nTop 10 cabinets conseil IA générative France 2026 - AI Partners\nWavestone est un cabinet de conseil en management français avec environ 5 000 consultants et une practice de transformation IA déd...\nPasser au prompt précédent\nLa réponse du Mode IA est prête",
+    "generateur_pret": true,
+    "sources": [
+      {
+        "titre": "(sans titre)",
+        "lien_original": "https://www.google.com/goto?url=CAESbQHrOzAV3B17MlVs7GH3xdjshafDBsUZr6u91R5wCxRuz291ma6bHzzwJpHoTCGOYSR2-Ir2myN6Ivqu6n3wi3LrtYFrBKRviXNsRU2jI9iBGYn4v38f-_0dpOfdUhNQUNMt11eyyjO32ggmgSs",
+        "url_finale": "https://www.master-ia.fr/conseil-transformation-ia",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Wavestone",
+        "lien_original": "https://www.google.com/goto?url=CAESkAEB6zswFYhN8bBdYwc903nG9fmRpqDFthpZRozx_XRB3Z_t8wq3Q63m-6JtWn4RuDmeOz_qutSQnZ8KwlAVtvCBOztX2gO2q4CWikt2b2kJvswsznHx2KaJq398QPVoplvX6TlQk5MlryTvGUZrB4pqK2pYh8BrCGOCcx1ci1t2Uy17yzLDYSmilqjQb2MKkIQ",
+        "url_finale": "https://weareaipartners.com/fr/blog/top-10-generative-ai-consulting-firms-france-2026",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Boston Consulting Group (BCG)",
+        "lien_original": "https://www.google.com/goto?url=CAESTgHrOzAVbqsyO-aNYlMv4s_l4J80LCiG1HbaPDirSjD1GGCAep2HTAV8QDB7WSRUj1pz6H-R7vxSF1WZ5zDgsAiSXtWeCPSypGkhowCVag",
+        "url_finale": "https://www.bcg.com/",
+        "finale_obtenue": false,
+        "note": null
+      },
+      {
+        "titre": "McKinsey & Company",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAVOJg-cNOk170bqVTTTB-3rE1Rnv8DW1DlmExiDP7GMw8kg1LuGgSH3FaGuV_zUqAbDp5661RBA_StxEmXaOv_k6uBvA94qnbxGrcDQiXB",
+        "url_finale": "https://www.mckinsey.com/",
+        "finale_obtenue": false,
+        "note": "timeout resolution"
+      },
+      {
+        "titre": "Masteria",
+        "lien_original": "https://www.google.com/goto?url=CAESUwHrOzAV8fGy_TOaBltXh3gjAlcMhu3Bk3rzYNoo_SocAvVddZRUoki9N4IyaN7jkJERi70rKDWEoaxAM5t5sne_F5x8XBN6sCXO2suTEW95d61Y",
+        "url_finale": "https://www.master-ia.fr/",
+        "finale_obtenue": true,
+        "note": null
+      },
+      {
+        "titre": "Sopra Steria",
+        "lien_original": "https://www.google.com/goto?url=CAESVgHrOzAV2OgB8EturMPFOCMs-5yoFXAd61AglbSWA2UmE8np_U-Jn9-kFi3eRtzaFBVX9yM1tMHdJhe-FgIBydYkaxliV2II7pJyuVBvkAQlZGEot_4U",
+        "url_finale": "https://www.soprasteria.com/",
+        "finale_obtenue": true,
+        "note": null
+      }
+    ],
+    "capture": "B6.png",
+    "status": "ok_complete"
   }
 ]
